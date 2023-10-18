@@ -12,11 +12,19 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+       $this->call([
+           CountriesTableSeeder::class,
+           StatesTableSeeder::class,
+           CitiesTableChunkOneSeeder::class,
+           CitiesTableChunkTwoSeeder::class,
+           CitiesTableChunkThreeSeeder::class,
+           CitiesTableChunkFourSeeder::class,
+           CitiesTableChunkFiveSeeder::class,
+           HouseTypeTableSeeder::class,
+           SalesTypeTableSeeder::class
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+       ]);
+
+
     }
 }
