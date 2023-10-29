@@ -25,6 +25,7 @@ Route::get('/our-mission',['App\Http\Controllers\PageController','about'])->name
 Route::get('/our-team',['App\Http\Controllers\PageController','team'])->name('our-team');
 Route::get('/our-services',['App\Http\Controllers\PageController','services'])->name('our-services');
 Route::get('/faqs',['App\Http\Controllers\PageController','faq'])->name('faqs');
+Route::get('/testimonials',['App\Http\Controllers\PageController','testimonials'])->name('testimonials');
 
 
 

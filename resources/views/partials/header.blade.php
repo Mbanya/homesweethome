@@ -40,12 +40,12 @@
                                             <a href="{{route('index')}}"><img src="{{asset('main/img/logo/hs-logo.png')}}" alt="Logo"></a>
                                         </div>
                                         <ul class="navigation right">
-                                            <li class="menu"><a href="#">Services</a>
+                                            <li class="menu"><a href="{{route('our-services')}}">Services</a>
                                             </li>
-                                            <li class="menu"><a href="#">Blog</a>
+                                            <li class="menu"><a href="{{route('blogs.index')}}">Blog</a>
 
                                             </li>
-                                            <li><a href="contact.html">contacts</a></li>
+                                            <li><a href="{{route('contact-us')}}l">contacts</a></li>
                                         </ul>
                                     </div>
                                 </div>

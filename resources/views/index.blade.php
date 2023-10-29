@@ -9,17 +9,12 @@
     <!-- Preloader-start -->
     @include('partials.pre-loader')
     <!-- Preloader-start-end -->
-
     <!-- Scroll-top -->
     @include('partials.scroll-top')
     <!-- Scroll-top-end-->
-
     <!-- header-area -->
-    @include('partials.header')
-
+    @include('partials.sub-page-header')
     <!-- header-area-end -->
-
-
     <!-- main-area -->
     <main>
 
@@ -371,13 +366,10 @@
     </main>
     <!-- main-area-end -->
 
-
     <!-- footer-area -->
     @include('partials.footer')
 
     <!-- footer-area-end -->
-
-
 
     <!-- JS here -->
     @include('partials.main-scripts')
