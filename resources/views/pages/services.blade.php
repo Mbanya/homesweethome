@@ -40,6 +40,59 @@
         </section>
         <!-- breadcrumb-area-end -->
 
+        <!-- services-area -->
+        <section class="services-area section-pt-140 section-pb-100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="section-title text-center mb-55">
+                            <span class="sub-title">What we do</span>
+                            <h2 class="title">Creating a great tomorrow for everyone</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="services-item">
+                            <div class="services-thumb">
+                                <a href="#"><img src="main/img/images/services_01.png" alt=""></a>
+                            </div>
+                            <div class="services-content">
+                                <h2 class="title"><a href="#">Residential Development</a></h2>
+                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia</p>
+                                <a href="#" class="text-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="services-item">
+                            <div class="services-thumb">
+                                <a href="#"><img src="main/img/images/services_02.png" alt=""></a>
+                            </div>
+                            <div class="services-content">
+                                <h2 class="title"><a href="#">Commercial Development</a></h2>
+                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia</p>
+                                <a href="#" class="text-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="services-item">
+                            <div class="services-thumb">
+                                <a href="#"><img src="main/img/images/services_03.png" alt=""></a>
+                            </div>
+                            <div class="services-content">
+                                <h2 class="title"><a href="#">Industrial Development</a></h2>
+                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui  dolorem ipsum quia dolor sit amet sed quia</p>
+                                <a href="#" class="text-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services-area-end -->
+
         <!-- features-area -->
         <section class="features-area features-pb-80">
             <div class="container">
@@ -132,58 +185,7 @@
         </div>
         <!-- video-area-end -->
 
-        <!-- services-area -->
-        <section class="services-area section-pt-140 section-pb-100">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-7 col-lg-8">
-                        <div class="section-title text-center mb-55">
-                            <span class="sub-title">What we do</span>
-                            <h2 class="title">Creating a great tomorrow for everyone</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-10">
-                        <div class="services-item">
-                            <div class="services-thumb">
-                                <a href="#"><img src="main/img/images/services_01.png" alt=""></a>
-                            </div>
-                            <div class="services-content">
-                                <h2 class="title"><a href="#">Residential Development</a></h2>
-                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia</p>
-                                <a href="#" class="text-btn">Learn more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10">
-                        <div class="services-item">
-                            <div class="services-thumb">
-                                <a href="#"><img src="main/img/images/services_02.png" alt=""></a>
-                            </div>
-                            <div class="services-content">
-                                <h2 class="title"><a href="#">Commercial Development</a></h2>
-                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia</p>
-                                <a href="#" class="text-btn">Learn more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10">
-                        <div class="services-item">
-                            <div class="services-thumb">
-                                <a href="#"><img src="main/img/images/services_03.png" alt=""></a>
-                            </div>
-                            <div class="services-content">
-                                <h2 class="title"><a href="#">Industrial Development</a></h2>
-                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui  dolorem ipsum quia dolor sit amet sed quia</p>
-                                <a href="#" class="text-btn">Learn more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- services-area-end -->
+
 
         <!-- newsletter-area -->
         <section class="newsletter-area newsletter-area-two section-pb-140">

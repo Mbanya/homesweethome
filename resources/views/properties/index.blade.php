@@ -57,11 +57,10 @@
                                     <div class="col-md-4">
                                         <div class="form-grp select">
                                             <select id="shortBy" name="select" class="form-select" aria-label="Default select example">
-                                                <option value="">Status</option>
-                                                <option>London</option>
-                                                <option>New York</option>
-                                                <option>Paris</option>
-                                                <option>Atlanta</option>
+                                                <option value="">Property</option>
+                                                <option>For Rent</option>
+                                                <option>For Sale</option>
+                                                <option>AirBnB</option>
                                             </select>
                                         </div>
                                     </div>
@@ -78,10 +77,10 @@
                                         <div class="form-grp select">
                                             <select id="shortByThree" name="select" class="form-select" aria-label="Default select example">
                                                 <option value="">Location</option>
-                                                <option>Baltimore, MD</option>
-                                                <option>New York, NY</option>
-                                                <option>New Orleans, LA</option>
-                                                <option>South Gate, CA</option>
+                                                <option>Nairobi, KileleshwaD</option>
+                                                <option>Nairobi, Kitengela</option>
+                                                <option>Nairobi, Lavington</option>
+                                                <option>Mombasa, Bamburi</option>
                                             </select>
                                         </div>
                                     </div>
@@ -99,7 +98,7 @@
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title"><a href="project-details.html">New Central Garden</a></h3>
-                                    <span>Baltimore, MD</span>
+                                    <span>Nairobi Kileleshwa, MD</span>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +109,7 @@
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title"><a href="project-details.html">City Shopping Complex</a></h3>
-                                    <span>Charlottesville, VA</span>
+                                    <span>Nairobi Kileleshwa, MD</span>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +120,7 @@
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title"><a href="project-details.html">Modern Residential Park</a></h3>
-                                    <span>New York, NY</span>
+                                    <span>Nairobi Kileleshwa, MD</span>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +131,7 @@
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title"><a href="project-details.html">Paragon Hotel Concept</a></h3>
-                                    <span>New Orleans, LA</span>
+                                    <span>Nairobi Kileleshwa, MD</span>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +142,7 @@
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title"><a href="project-details.html">Brunswick West Wing</a></h3>
-                                    <span>South Gate, CA</span>
+                                    <span>Nairobi Kileleshwa, MD</span>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +153,7 @@
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title"><a href="project-details.html">Andorra Shopping Center</a></h3>
-                                    <span>Rockville, MD</span>
+                                    <span>Nairobi Kitengela, MD</span>
                                 </div>
                             </div>
                         </div>
@@ -165,7 +164,7 @@
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title"><a href="project-details.html">Gaithersburg Square</a></h3>
-                                    <span>Gaithersburg, MD</span>
+                                    <span>Nairobi Syokimau, MD</span>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +175,7 @@
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title"><a href="project-details.html">Hastings Ranch Plaza</a></h3>
-                                    <span>Pasadena, CA</span>
+                                    <span>Nairobi Athi River, CA</span>
                                 </div>
                             </div>
                         </div>
@@ -187,7 +186,7 @@
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title"><a href="project-details.html">Third Street Promenade</a></h3>
-                                    <span>Santa Monica, CA</span>
+                                    <span>Mombasa Bamburi Monica, CA</span>
                                 </div>
                             </div>
                         </div>
@@ -198,29 +197,7 @@
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title"><a href="project-details.html">Camelback Colonnade</a></h3>
-                                    <span>Phoenix, AZ</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img11.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">Bell Gardens Marketplace</a></h3>
-                                    <span>Bell Gardens, CA</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img12.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">Congressional Plaza</a></h3>
-                                    <span>Rockville, MD</span>
+                                    <span>Mombasa Malindi, AZ</span>
                                 </div>
                             </div>
                         </div>
