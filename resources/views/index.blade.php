@@ -29,11 +29,20 @@
                     <div class="col-xl-8 col-lg-10">
                         <div class="section-title text-center mb-35">
                             <span class="sub-title">Who we are</span>
-                            <h2 class="title">30 years of leadership in real estate sector</h2>
+                            <h2 class="title">A DECADE OF EXPERTISE, CONFIDENCE, AND ASSURANCE IN REAL ESTATE</h2>
                         </div>
                         <div class="about-content text-center">
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia non numquam eius modi tempora incidunt</p>
-                            <a href="overview.html" class="btn transparent-btn">
+                            <p>
+                                For 10 years, Home Sweet Home has been a trusted partner in real estate,
+                                simplifying complexities and turning visions into heartfelt homes.
+                                With confidence at every step, knowledge that transforms,
+                                and assurance in every detail, we are unwavering partners in creating the home of your dreams.
+                                Trust us to navigate the intricacies, make informed decisions,
+                                and ensure a seamless journey from listing to closing.
+                                Welcome to a place where real estate meets heart – welcome to Home Sweet Home.
+
+                            </p>
+                            <a href="{{route('about-us')}}" class="btn transparent-btn">
                                 <div class="btn_m">
                                     <div class="btn_c">
                                         <div class="btn_t1">more about</div>
@@ -116,8 +125,12 @@
                                 <i class="flaticon-001-sofa"></i>
                             </div>
                             <div class="feature-content">
-                                <h2 class="title">High Quality Products</h2>
-                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia</p>
+                                <h2 class="title">Property Valuation</h2>
+                                <p>
+                                    Unlock the true value of your property with our expert valuation services.
+                                    We analyze market trends and property
+                                    specifics to provide an accurate and comprehensive valuation, ensuring you make informed decisions
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -127,8 +140,12 @@
                                 <i class="flaticon-002-plants"></i>
                             </div>
                             <div class="feature-content">
-                                <h2 class="title">Green Environment</h2>
-                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia</p>
+                                <h2 class="title">Listing Homes</h2>
+                                <p>
+                                    Maximize your property's visibility and potential with our tailored listing services.
+                                    We showcase your home's unique features,
+                                    leveraging strategic marketing to attract the right buyers and expedite the selling process
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -138,8 +155,11 @@
                                 <i class="flaticon-003-chandelier"></i>
                             </div>
                             <div class="feature-content">
-                                <h2 class="title">Comprehensive Amenities</h2>
-                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia</p>
+                                <h2 class="title">Marketing Properties</h2>
+                                <p>Experience a new level of property marketing with us.
+                                    Our innovative strategies, coupled with a deep understanding of the market,
+                                    ensure that your property receives the attention it deserves. From online platforms to traditional methods, we cover it all
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -149,8 +169,11 @@
                                 <i class="flaticon-004-headset"></i>
                             </div>
                             <div class="feature-content">
-                                <h2 class="title">Professional Services</h2>
-                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia</p>
+                                <h2 class="title">Negotiating Deals</h2>
+                                <p>
+                                    Let our skilled negotiators work on your behalf. Whether buying or selling, we're dedicated to securing the best deals for our clients.
+                                    Trust us to navigate the negotiation process with finesse, ensuring your interests are protected
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -160,22 +183,15 @@
                                 <i class="flaticon-005-leader"></i>
                             </div>
                             <div class="feature-content">
-                                <h2 class="title">Humanitarian Community</h2>
-                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia</p>
+                                <h2 class="title">Guiding Clients Through the Buying or Selling Process</h2>
+                                <p>
+                                    Embark on your real estate journey with confidence. Our seasoned team is here to guide you through every step of the buying or selling process.
+                                    From initial consultation to closing the deal, we provide unwavering support and expertise
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10">
-                        <div class="features-item">
-                            <div class="feature-icon">
-                                <i class="flaticon-006-shield"></i>
-                            </div>
-                            <div class="feature-content">
-                                <h2 class="title">Absolute Security</h2>
-                                <p>Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia</p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>

@@ -120,8 +120,10 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
                         <div class="section-title text-center mb-50">
-                            <span class="sub-title">Awards & recognition</span>
-                            <h2 class="title">The Merits we have earned</h2>
+                            <span class="sub-title">How We Work</span>
+                            <h2 class="title">
+                                We’re not just about transactions; we're about building relationships
+                                </h2>
                         </div>
                     </div>
                 </div>
@@ -133,67 +135,93 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="roadmap-item">
-                                        <h4 class="title">2007</h4>
+                                        <h4 class="title">1. Introductory Meeting</h4>
                                         <div class="roadmap-content">
                                             <span class="dot"></span>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                                                magni dolores</p>
-                                            <span>ET Now Real Estate Awards <br> Most Promising Delivery</span>
+                                            <p>Our process starts with an introductory meeting where we prioritize your needs</p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="roadmap-item">
-                                        <h4 class="title">2010</h4>
+                                        <h4 class="title">2. Needs Assessment</h4>
                                         <div class="roadmap-content">
                                             <span class="dot"></span>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                                                magni dolores</p>
-                                            <span>Design & Development Awards <br> Ideal Project Design</span>
+                                            <p>We’ll explore details on an ideal property, location, budget, and any specific requirements in
+                                                engagement to understand the client's real estate goals and preferences
+                                            </p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="roadmap-item">
-                                        <h4 class="title">2011</h4>
+                                        <h4 class="title">3. Property Portfolio Presentation</h4>
                                         <div class="roadmap-content">
                                             <span class="dot"></span>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                                                magni dolores</p>
-                                            <span>National Real Estate Awards <br> Best Luxury Company</span>
+                                            <p>Showcasing a curated portfolio of properties that align with the client's criteria, highlighting details on each property, emphasizing key features and benefits</p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="roadmap-item">
-                                        <h4 class="title">2014</h4>
+                                        <h4 class="title">4. Address Concerns and Questions</h4>
                                         <div class="roadmap-content">
                                             <span class="dot"></span>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                                                magni dolores</p>
-                                            <span>Golden Globe Tiger Awards <br> Property of the Year</span>
+                                            <p>Addressing any concerns or questions by providing clear and comprehensive answers and attentiveness to the little details</p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="roadmap-item">
-                                        <h4 class="title">2019</h4>
+                                        <h4 class="title">5. Tour or Preview Options</h4>
                                         <div class="roadmap-content">
                                             <span class="dot"></span>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                                                magni dolores</p>
-                                            <span>BAM Awards Real Best <br>Creative builder</span>
+                                            <p>Arranging property tours or virtual previews based on the client's preferences, gathering feedback to refine the selection process</p>
+
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="roadmap-item">
-                                        <h4 class="title">2020</h4>
+                                        <h4 class="title">6. Customized Strategy</h4>
                                         <div class="roadmap-content">
                                             <span class="dot"></span>
-                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                                                magni dolores</p>
-                                            <span>Design & Development Awards <br> Ideal Project Design</span>
+                                            <p>Developing a tailored strategy based on your goals and discussing potential buying, selling, or investing approaches, depending on your needs</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="roadmap-item">
+                                        <h4 class="title">7. Negotiation Guidance</h4>
+                                        <div class="roadmap-content">
+                                            <span class="dot"></span>
+                                            <p>We negotiate to keep our clients' best interests at heart, and competitive offers and rates in
+                                                discussing terms, conditions, and potential adjustments
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="roadmap-item">
+                                        <h4 class="title">8. Closing and Documentation</h4>
+                                        <div class="roadmap-content">
+                                            <span class="dot"></span>
+                                            <p> When closing, we ensure all necessary documents are in order by collaborating with legal experts to facilitate a smooth and secure transaction</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="roadmap-item">
+                                        <h4 class="title">9. Post Transaction Support</h4>
+                                        <div class="roadmap-content">
+                                            <span class="dot"></span>
+                                            <p>We are committed to our client's satisfaction beyond sale. We provide ongoing support for any post-transaction needs or inquiries</p>
                                         </div>
                                     </div>
                                 </div>
