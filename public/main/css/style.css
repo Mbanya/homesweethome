@@ -2954,6 +2954,17 @@ label {
 	height: 318px;
 	flex: 0 0 auto;
 	align-self: flex-start;
+    animation: scroll 20s linear both infinite;
+    cursor: grab;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%); /* Adjust for the number of slides */
+    }
 }
 .roadmap-item .title {
 	margin-bottom: 0;

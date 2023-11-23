@@ -53,9 +53,17 @@
                         <div class="about-content">
                             <div class="section-title mb-40">
                                 <span class="sub-title">Who we are</span>
-                                <h2 class="title">30 years of leadership in real estate sector</h2>
+                                <h2 class="title">A DECADE OF EXPERTISE, CONFIDENCE, AND ASSURANCE IN REAL ESTATEr</h2>
                             </div>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sed quia non numquam</p>
+                            <p>
+                                For 10 years, Home Sweet Home has been a trusted partner in real estate,
+                                simplifying complexities and turning visions into heartfelt homes.
+                                With confidence at every step, knowledge that transforms, and assurance in every detail,
+                                we are unwavering partners in creating the home of your dreams.
+                                Trust us to navigate the intricacies, make informed decisions,
+                                and ensure a seamless journey from listing to closing.
+                                Welcome to a place where real estate meets heart – welcome to Home Sweet Home
+                            </p>
                             <a href="overview.html" class="btn transparent-btn">
                                 <div class="btn_m">
                                     <div class="btn_c">

@@ -105,6 +105,20 @@
         </section>
         <!-- services-area-end -->
 
+        <!-- video-area -->
+        <div class="video-area-three">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="video-bg">
+                            <a href="https://www.youtube.com/watch?v=c-goZSYW6qE" class="popup-video play-btn"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- video-area-end -->
+
         <!-- features-area -->
         <section class="features-area features-pb-80">
             <div class="container">
@@ -187,19 +201,7 @@
         </section>
         <!-- features-area-end -->
 
-        <!-- video-area -->
-        <div class="video-area-three">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="video-bg">
-                            <a href="https://www.youtube.com/watch?v=c-goZSYW6qE" class="popup-video play-btn"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- video-area-end -->
+
 
 
 
