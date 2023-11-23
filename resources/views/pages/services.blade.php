@@ -106,7 +106,7 @@
         <!-- services-area-end -->
 
         <!-- video-area -->
-        <div class="video-area-three">
+        <div class="video-area-three pb-80">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
