@@ -51,7 +51,7 @@
                                 </div>
                                 <div class="col-xl-2">
                                     <div class="header-contact text-end">
-                                        <a href="tel:0720148017">+254 720 148017</a>
+                                        <a href="tel:254743771777">+254 743 771777</a>
                                     </div>
                                 </div>
                             </div>

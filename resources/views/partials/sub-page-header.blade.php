@@ -43,7 +43,7 @@
                                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                         </ul>
                                     </li>
-                                    <li class="header-contact"> <a href="tel:0720148017">+254 720 148017</a></li>
+                                    <li class="header-contact"> <a href="tel:254743771777">+254 743 771777</a></li>
                                 </ul>
                             </div>
                         </nav>

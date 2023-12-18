@@ -16,8 +16,8 @@
                             <div class="footer-contact">
                                 <p>Off Dennis Pritt Rd, Opposite Retreat Villas, <br> Nairobi, Kenya</p>
                                 <ul class="list-wrap">
-                                    <li><a href="mailto:relandgroup@mail.com">homesweethome@mail.com</a></li>
-                                    <li><a href="tel:254720148017">+254 720 148017</a></li>
+                                    <li><a href="mailto:homesweethome@mail.com">homesweethome@mail.com</a></li>
+                                    <li><a href="tel:254743771777">+254 743 771777</a></li>
                                 </ul>
                             </div>
                         </div>
