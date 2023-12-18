@@ -51,7 +51,7 @@
                                 Nairobi, Kenya</h2>
                             <ul class="list-wrap">
                                 <li> <a href="mailto:homesweethome@gmail.co.ke">homesweethome@gmail.co.ke</a></li>
-                                <li><a href="tel:0720148017">+254 720 148017</a></li>
+                                <li><a href="tel:254743771777">+254 743 771777</a></li>
                             </ul>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                                 Nairobi, Kenya</h2>
                             <ul class="list-wrap">
                                 <li> <a href="mailto:homesweethome@gmail.co.ke">homesweethome@gmail.co.ke</a></li>
-                                <li><a href="tel:0720148017">+254 720 148017</a></li>
+                                <li><a href="tel:254743771777">+254 743 771777</a></li>
                             </ul>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
             <div class="container">
                 <div id="contact-map">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96811.54759587669!2d-74.01263924803828!3d40.6880494567041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1636195194646!5m2!1sen!2sbd"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.812578834206!2d36.7962845769904!3d-1.2865106356305729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10b725473f7d%3A0xb5fee7b9e24b9643!2sDennis%20Pritt%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1702883276925!5m2!1sen!2ske"
                         allowfullscreen loading="lazy"></iframe>
                 </div>
             </div>
