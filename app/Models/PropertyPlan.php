@@ -10,6 +10,8 @@ class PropertyPlan extends Model
 {
     use HasFactory;
 
+    protected $guarded = [];
+
     public function property(): BelongsTo
     {
         return $this->belongsTo(Property::class);

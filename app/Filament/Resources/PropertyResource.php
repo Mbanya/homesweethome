@@ -3,8 +3,12 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\PropertyResource\Pages;
-use App\Filament\Resources\PropertyResource\RelationManagers;
+//use App\Filament\Resources\PropertyResource\RelationManagers;
+use App\Models\City;
+//use App\Models\Country;
+use App\Models\HouseType;
 use App\Models\Property;
+use App\Models\SaleType;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -12,6 +16,7 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Livewire\Livewire;
 
 class PropertyResource extends Resource
 {
@@ -34,16 +39,24 @@ class PropertyResource extends Resource
                     ->required()
                     ->maxLength(255),
                 Forms\Components\Select::make('house_type_id')
-                    ->relationship('house_type','name')
+                    ->options(
+                        HouseType::all()->pluck('name','id')->toArray()
+                    )->placeholder('Select House Type')
+                    ->label('House Type')
                     ->required()
                     ->searchable(),
                 Forms\Components\Select::make('sale_type_id')
-                    ->relationship('sale_type', 'name')
+                    ->options(SaleType::all()->pluck('name','id')->toArray())
                     ->searchable()
+                    ->label('Sale Type')
                     ->required(),
                 Forms\Components\Select::make('city_id')
-                    ->relationship('city', 'name')
+                    ->options(City::query()->whereIn('country_id',[113,229,70,183,161,204,218])
+                        ->pluck('name','id')->toArray())
                     ->searchable()
+                    ->loadingMessage('Loading cities...')
+                    ->preload()
+                    ->label('City')
                     ->required(),
                 Forms\Components\TextInput::make('address_1')
                     ->maxLength(255),

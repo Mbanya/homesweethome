@@ -10,7 +10,7 @@ class SaleType extends Model
 {
     use HasFactory;
 
-
+    protected $guarded = [];
     public function properties(): HasMany
     {
         return $this->hasMany(Property::class);

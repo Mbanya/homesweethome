@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class HouseType extends Model
 {
     use HasFactory;
-
+    protected $guarded = [];
 
     public function properties(): HasMany
     {

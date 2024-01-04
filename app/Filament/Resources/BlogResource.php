@@ -26,7 +26,7 @@ class BlogResource extends Resource
                 Forms\Components\TextInput::make('title')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\TextInput::make('excerpt')
+                Forms\Components\Textarea::make('excerpt')
                     ->required()
                     ->maxLength(255),
                 Forms\Components\RichEditor::make('body')
@@ -38,7 +38,7 @@ class BlogResource extends Resource
                 Forms\Components\TextInput::make('meta-title')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\TextInput::make('meta-description')
+                Forms\Components\Textarea::make('meta-description')
                     ->required()
                     ->maxLength(255),
                 Forms\Components\TextInput::make('meta-tag')
