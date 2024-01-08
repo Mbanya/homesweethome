@@ -29,17 +29,15 @@
                     <div class="col-xl-8 col-lg-10">
                         <div class="section-title text-center mb-35">
                             <span class="sub-title">Who we are</span>
-                            <h2 class="title">A DECADE OF EXPERTISE, CONFIDENCE, AND ASSURANCE IN REAL ESTATE</h2>
+                            <h2 class="title">Expertise, Confidence, and Assurance In Real Estate</h2>
                         </div>
                         <div class="about-content text-center">
                             <p>
-                                For 10 years, Home Sweet Home has been a trusted partner in real estate,
-                                simplifying complexities and turning visions into heartfelt homes.
-                                With confidence at every step, knowledge that transforms,
-                                and assurance in every detail, we are unwavering partners in creating the home of your dreams.
-                                Trust us to navigate the intricacies, make informed decisions,
-                                and ensure a seamless journey from listing to closing.
-                                Welcome to a place where real estate meets heart – welcome to Home Sweet Home.
+                                For a decade, Home Sweet Homes has been transforming the client&#39;s visions into
+                                heartfelt homes. Our meticulous standards and assurance in every detail ensure a seamless
+                                experience from property listing to closing. Count on us to navigate the intricacies to enable
+                                you to make the right decisions. Welcome to a place where real estate meets heart; Home
+                                Sweet Home.
 
                             </p>
                             <a href="{{route('about-us')}}" class="btn transparent-btn">

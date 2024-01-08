@@ -59,10 +59,9 @@
                             </div>
                             <div class="services-content">
                                 <h2 class="title"><a href="#">Buy</a></h2>
-                                <p>Step into homeowner-ship with confidence and expertise.
-                                    Our curated selection of homes awaits, guided by seasoned professionals dedicated to making your dream a reality.
-                                    From selection to closing, trust our experts to lead you with assurance.
-                                    Welcome to a seamless journey to your new home—where confidence meets expertise.
+                                <p>2-Own a property that meets your standards. Explore a curated selection of houses
+                                    to meet your needs. From selection to closing, rely on us for a seamless experience for
+                                    everything in between.
 
                                 </p>
                                 <a href="#" class="text-btn">Learn more</a>
@@ -77,9 +76,9 @@
                             <div class="services-content">
                                 <h2 class="title"><a href="#">Rent </a></h2>
                                 <p>
-                                    Searching for the ideal rental? Your search ends here.
-                                    Explore a diverse range of rental properties tailored to your needs. We ensure that you will find the perfect space with ease.
-                                    From apartments to houses, trust us to match you with the right property. Your ideal rental home awaits—start your journey today.
+                                    Searching for the ideal rental? Your search ends here. Uncover hidden gems and
+                                    sanctuaries in the heart of Nairobi and Dubai to call home. From apartments to houses, your
+                                    ideal space awaits at the beat of your fingertips.
                                 </p>
                                 <a href="#" class="text-btn">Learn more</a>
                             </div>
@@ -93,8 +92,9 @@
                             <div class="services-content">
                                 <h2 class="title"><a href="#">Lease </a></h2>
                                 <p>
-                                    Discover the freedom of flexible leasing with us. Whether you're seeking a short-term sanctuary or a long-time haven, we have the perfect lease options for you.
-                                    Explore residences designed for comfort and style, available for stays that suit your lifestyle. Embrace a new way of living
+                                    Match up your flexibility with the new way of living; in comfort, style, and
+                                    convenience. Experience the perfect stays in short-term sanctuaries and long-term havens.
+                                    Check out our ready live-in options.
                                 </p>
                                 <a href="#" class="text-btn">Learn more</a>
                             </div>
@@ -131,9 +131,8 @@
                             <div class="feature-content">
                                 <h2 class="title">Property Valuation</h2>
                                 <p>
-                                    Unlock the true value of your property with our expert valuation services.
-                                    We analyze market trends and property
-                                    specifics to provide an accurate and comprehensive valuation, ensuring you make informed decisions
+                                    Discover the true value of your property.Our expert valuation analyses market
+                                    trends and property details unlocking accurate valuation so you can make the best of it.
                                 </p>
                             </div>
                         </div>
@@ -146,9 +145,9 @@
                             <div class="feature-content">
                                 <h2 class="title">Listing Homes</h2>
                                 <p>
-                                    Maximize your property's visibility and potential with our tailored listing services.
-                                    We showcase your home's unique features,
-                                    leveraging strategic marketing to attract the right buyers and expedite the selling process
+                                    Showcase your property&#39;s potential with our tailored listing services. We’ll
+                                    advertise your property’s uniqueness, leveraging strategic marketing to attract the right
+                                    buyers and speed up the selling process.
                                 </p>
                             </div>
                         </div>
@@ -160,9 +159,9 @@
                             </div>
                             <div class="feature-content">
                                 <h2 class="title">Marketing Properties</h2>
-                                <p>Experience a new level of property marketing with us.
-                                    Our innovative strategies, coupled with a deep understanding of the market,
-                                    ensure that your property receives the attention it deserves. From online platforms to traditional methods, we cover it all
+                                <p>Give your property the attention it deserves. Our creative and innovative
+                                    strategies will draw eyes to highlight its features to receive the attention it deserves.
+                                    Experience a new level of property marketing with us.
                                 </p>
                             </div>
                         </div>
@@ -175,8 +174,8 @@
                             <div class="feature-content">
                                 <h2 class="title">Negotiating Deals</h2>
                                 <p>
-                                    Let our skilled negotiators work on your behalf. Whether buying or selling, we're dedicated to securing the best deals for our clients.
-                                    Trust us to navigate the negotiation process with finesse, ensuring your interests are protected
+                                    Whether buying or selling, we’re dedicated to bagging the best deal. Our finesse
+                                    extends negotiating, we prioritize protecting our clients&#39; best interests.
                                 </p>
                             </div>
                         </div>
@@ -189,8 +188,8 @@
                             <div class="feature-content">
                                 <h2 class="title">Guiding Clients Through the Buying or Selling Process</h2>
                                 <p>
-                                    Embark on your real estate journey with confidence. Our seasoned team is here to guide you through every step of the buying or selling process.
-                                    From initial consultation to closing the deal, we provide unwavering support and expertise
+                                    Embrace confidence in finding the ideal property. We’ll walk in step from initial
+                                    consulting to closing the deal, expect unwavering support when buying, selling or renting.
                                 </p>
                             </div>
                         </div>

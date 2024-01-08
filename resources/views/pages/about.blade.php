@@ -64,7 +64,7 @@
                                 and ensure a seamless journey from listing to closing.
                                 Welcome to a place where real estate meets heart – welcome to Home Sweet Home
                             </p>
-                            <a href="overview.html" class="btn transparent-btn">
+                            <a href="" class="btn transparent-btn">
                                 <div class="btn_m">
                                     <div class="btn_c">
                                         <div class="btn_t1">learn more</div>
@@ -130,7 +130,7 @@
                         <div class="section-title text-center mb-50">
                             <span class="sub-title">How We Work</span>
                             <h2 class="title">
-                                We’re not just about transactions; we're about building relationships
+                                We’re not just about transactions, we’re about building lifetime relationships.
                                 </h2>
                         </div>
                     </div>

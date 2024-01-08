@@ -6,9 +6,10 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
                         <div class="banner-content text-center">
-                            <h2 class="title" data-animation="fadeInUp" data-delay=".2s">Home Sweet Homee</h2>
+                            <h2 class="title" data-animation="fadeInUp" data-delay=".2s">Home Sweet Home</h2>
                             <p data-animation="fadeInUp" data-delay=".4s">
-                                We provide guidance, expertise, and a seamless experience in real estate. We simplify the complexities of the process, transforming our clients' visions into heartfelt homes
+                                Our decade of expertise simplifies the complexities of investing in real estate.
+                                We’re dedicated to transforming our client&#39;s visions into heartfelt homes.
 
                             </p>
                             <a href="{{route('about-us')}}" class="btn" data-animation="fadeInUp" data-delay=".6s">
@@ -32,8 +33,9 @@
                         <div class="banner-content text-center">
                             <h2 class="title" data-animation="fadeInUp" data-delay=".2s">Welcome Home</h2>
                             <p data-animation="fadeInUp" data-delay=".4s">
-                                Your trusted partner in providing informed guidance when finding properties to rent, buy,
-                                or lease in Nairobi and Dubai environs. Let's turn your aspirations into reality
+                                Our expertise knows no bounds. We turn every stone when providing you with
+                                accurate and insightful information in buying, selling, or leasing properties in Nairobi and
+                                Dubai.
                             </p>
                             <a href="{{route('about-us')}}" class="btn" data-animation="fadeInUp" data-delay=".6s">
                                 <div class="btn_m">
