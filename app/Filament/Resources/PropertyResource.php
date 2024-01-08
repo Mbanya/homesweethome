@@ -82,6 +82,9 @@ class PropertyResource extends Resource
 //                    ->image()
 //                    ->acceptedFileTypes(['image/jpeg'])
                     ->multiple()
+                    ->imageEditor()
+                    ->imageEditorViewportWidth('1920')
+                    ->imageEditorViewportHeight('1080')
                     ->required(),
                 Forms\Components\Toggle::make('featured')
                     ->required(),
