@@ -12,7 +12,7 @@ class Property extends Model
 
     protected $guarded = [];
     protected $casts = [
-        'attachments' => 'array',
+        'image' => 'array',
     ];
 
 

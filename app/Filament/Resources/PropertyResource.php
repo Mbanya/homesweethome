@@ -79,8 +79,8 @@ class PropertyResource extends Resource
                 Forms\Components\Toggle::make('furnished')
                     ->required(),
                 Forms\Components\FileUpload::make('image')
-                    ->image()
-                    ->acceptedFileTypes(['image/jpeg'])
+//                    ->image()
+//                    ->acceptedFileTypes(['image/jpeg'])
                     ->multiple()
                     ->required(),
                 Forms\Components\Toggle::make('featured')
