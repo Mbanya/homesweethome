@@ -80,6 +80,7 @@ class PropertyResource extends Resource
                     ->required(),
                 Forms\Components\FileUpload::make('image')
                     ->image()
+                    ->acceptedFileTypes(['image/jpeg'])
                     ->multiple()
                     ->required(),
                 Forms\Components\Toggle::make('featured')
