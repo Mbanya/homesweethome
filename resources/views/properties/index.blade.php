@@ -29,7 +29,7 @@
                             <h2 class="title">Projects</h2>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="{{route('index')}}">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Projects</li>
                                 </ol>
                             </nav>
@@ -44,7 +44,7 @@
         <section class="inner-project-area project-style-two section-pb-140">
             <div class="container custom-container">
                 <div class="project-top-meta mb-50">
-                    <form action="#">
+                    <form action="#" method="GET">
                         <div class="row">
                             <div class="col-xl-4">
                                 <div class="form-grp">
@@ -57,19 +57,21 @@
                                     <div class="col-md-4">
                                         <div class="form-grp select">
                                             <select id="shortBy" name="select" class="form-select" aria-label="Default select example">
-                                                <option value="">Property</option>
-                                                <option>For Rent</option>
-                                                <option>For Sale</option>
-                                                <option>AirBnB</option>
+                                                <option value="">House Type</option>
+                                                @foreach($housetypes as $item)
+                                                    <option value="{{$item->id}}">{{$item->name}}</option>
+                                                @endforeach
+
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-grp select">
                                             <select id="shortByTwo" name="select" class="form-select" aria-label="Default select example">
-                                                <option value="">Type</option>
-                                                <option>House</option>
-                                                <option>Apartment</option>
+                                                <option value="">Sale Type</option>
+                                                @foreach($saletypes as $item)
+                                                    <option value="{{$item->id}}">{{$item->name}}</option>
+                                                @endforeach
                                             </select>
                                         </div>
                                     </div>
@@ -77,10 +79,9 @@
                                         <div class="form-grp select">
                                             <select id="shortByThree" name="select" class="form-select" aria-label="Default select example">
                                                 <option value="">Location</option>
-                                                <option>Nairobi, KileleshwaD</option>
-                                                <option>Nairobi, Kitengela</option>
-                                                <option>Nairobi, Lavington</option>
-                                                <option>Mombasa, Bamburi</option>
+                                                @foreach($locations as $item)
+                                                    <option value="{{$item->id}}">{{$item->name}}</option>
+                                                @endforeach
                                             </select>
                                         </div>
                                     </div>
@@ -91,128 +92,42 @@
                 </div>
                 <div class="project-item-wrap">
                     <div class="row justify-content-center">
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img01.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">New Central Garden</a></h3>
-                                    <span>Nairobi Kileleshwa, MD</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img02.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">City Shopping Complex</a></h3>
-                                    <span>Nairobi Kileleshwa, MD</span>
+                        @forelse($properties as $item)
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="project-item">
+                                    <div class="project-thumb">
+                                        <a href="{{route('properties.show',$item->id)}}"><img src="main/img/project/project_img01.jpg" alt=""></a>
+                                    </div>
+                                    <div class="project-content">
+                                        <h3 class="title"><a href="{{route('properties.show',$item->id)}}">{{$item->title}}</a></h3>
+                                        <span>{{$item->city->name}} "{{$item->address_1}}</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">Modern Residential Park</a></h3>
-                                    <span>Nairobi Kileleshwa, MD</span>
+                        @empty
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="project-item">
+                                    <div class="project-content">
+                                        <h3 class="title"><a href="">No Properties</a></h3>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img04.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">Paragon Hotel Concept</a></h3>
-                                    <span>Nairobi Kileleshwa, MD</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img05.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">Brunswick West Wing</a></h3>
-                                    <span>Nairobi Kileleshwa, MD</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img06.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">Andorra Shopping Center</a></h3>
-                                    <span>Nairobi Kitengela, MD</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img07.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">Gaithersburg Square</a></h3>
-                                    <span>Nairobi Syokimau, MD</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img08.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">Hastings Ranch Plaza</a></h3>
-                                    <span>Nairobi Athi River, CA</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img09.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">Third Street Promenade</a></h3>
-                                    <span>Mombasa Bamburi Monica, CA</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
-                            <div class="project-item">
-                                <div class="project-thumb">
-                                    <a href="project-details.html"><img src="main/img/project/project_img10.jpg" alt=""></a>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="title"><a href="project-details.html">Camelback Colonnade</a></h3>
-                                    <span>Mombasa Malindi, AZ</span>
-                                </div>
-                            </div>
-                        </div>
+                        @endforelse
+
                     </div>
                 </div>
-                <div class="pagination-wrap">
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination list-wrap">
-                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                {{$properties->links()}}
+
+{{--                <div class="pagination-wrap">--}}
+{{--                    <nav aria-label="Page navigation example">--}}
+{{--                        <ul class="pagination list-wrap">--}}
+{{--                            <li class="page-item active"><a class="page-link" href="#">1</a></li>--}}
+{{--                            <li class="page-item"><a class="page-link" href="#">2</a></li>--}}
+{{--                            <li class="page-item"><a class="page-link" href="#">3</a></li>--}}
+{{--                            <li class="page-item"><a class="page-link" href="#">4</a></li>--}}
+{{--                        </ul>--}}
+{{--                    </nav>--}}
+{{--                </div>--}}
             </div>
         </section>
         <!-- project-area-end -->
