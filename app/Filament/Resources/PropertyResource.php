@@ -80,7 +80,8 @@ class PropertyResource extends Resource
                     ->required(),
                 Forms\Components\FileUpload::make('image')
                     ->multiple()
-                    ->acceptedFileTypes(['image\*'])
+                    ->image()
+//                    ->acceptedFileTypes(['image\*'])
                     ->reorderable()
                     ->imageEditor()
                     ->imageEditorViewportWidth('1920')
