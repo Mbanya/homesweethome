@@ -34,6 +34,10 @@ class BlogResource extends Resource
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('image')
                     ->image()
+                    ->columnSpanFull()
+                    ->imageEditor()
+                    ->imageEditorViewportWidth('1920')
+                    ->imageEditorViewportHeight('1080')
                     ->required(),
                 Forms\Components\TextInput::make('meta-title')
                     ->required()

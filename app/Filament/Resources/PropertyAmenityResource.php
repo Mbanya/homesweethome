@@ -4,6 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\PropertyAmenityResource\Pages;
 use App\Filament\Resources\PropertyAmenityResource\RelationManagers;
+use App\Models\Property;
 use App\Models\PropertyAmenity;
 use Filament\Forms;
 use Filament\Forms\Form;
@@ -26,12 +27,16 @@ class PropertyAmenityResource extends Resource
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\TextInput::make('details')
+                Forms\Components\Textarea::make('details')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\TextInput::make('property_id')
-                    ->required()
-                    ->numeric(),
+
+                Forms\Components\Select::make('property_id')
+                    ->options(Property::all()->pluck('title','id')->toArray())
+                    ->searchable()
+                    ->label('Property')
+                    ->required(),
+
             ]);
     }
 
@@ -67,14 +72,14 @@ class PropertyAmenityResource extends Resource
                 ]),
             ]);
     }
-    
+
     public static function getRelations(): array
     {
         return [
             //
         ];
     }
-    
+
     public static function getPages(): array
     {
         return [
@@ -82,5 +87,5 @@ class PropertyAmenityResource extends Resource
             'create' => Pages\CreatePropertyAmenity::route('/create'),
             'edit' => Pages\EditPropertyAmenity::route('/{record}/edit'),
         ];
-    }    
+    }
 }

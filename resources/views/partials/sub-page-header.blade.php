@@ -12,7 +12,7 @@
                             </div>
                             <div class="navbar-wrap main-menu d-none d-lg-flex">
                                 <ul class="navigation">
-                                    <li class="{{request()->routeIs('index') ? 'active' : ''}} menu-"><a href="">Home</a>
+                                    <li class="{{request()->routeIs('index') ? 'active' : ''}} menu-"><a href="{{route('index')}}">Home</a>
 
                                     </li>
                                     <li class="menu-item-has-children {{request()->routeIs(['about-us','our-mission','our-team'])  ? 'active' : ''}}"><a href="{{route('about-us')}}">About</a>

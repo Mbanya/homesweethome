@@ -26,7 +26,7 @@ Route::get('/our-team',['App\Http\Controllers\PageController','team'])->name('ou
 Route::get('/our-services',['App\Http\Controllers\PageController','services'])->name('our-services');
 Route::get('/faqs',['App\Http\Controllers\PageController','faq'])->name('faqs');
 Route::get('/testimonials',['App\Http\Controllers\PageController','testimonials'])->name('testimonials');
-
+Route::post('/contact-us',[\App\Http\Controllers\PageController::class,'contactSubmit'])->name('submit-contact');
 
 
 /*

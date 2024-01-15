@@ -13,11 +13,16 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $blogs = Blog::query()->where('status',1)->get();
-        $categories = Category::query()->get();
+        $blogs = Blog::query()->where('status',1)->paginate(6);
+        $featured_blogs = Blog::query()->where('status',1)
+            ->where('featured')
+            ->get();
+//        $categories = Category::query()->get();
+        $categories = Category::with('children')->get();
         return view('blog.index',[
             'blogs'=>$blogs,
-            'categories'=>$categories
+            'categories'=>$categories,
+            'featured_blogs' => $featured_blogs
         ]);
     }
 

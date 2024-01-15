@@ -28,7 +28,7 @@ return new class extends Migration
             $table->boolean('pets_allowed')->default(0);
             $table->boolean('dishwasher')->default(0);
             $table->boolean('furnished')->default(0);
-            $table->string('image');
+            $table->json('image');
             $table->boolean('featured')->default(0);
             $table->boolean('status')->default(0);
             $table->timestamps();

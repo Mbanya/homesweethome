@@ -4,6 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\PropertyPlanResource\Pages;
 use App\Filament\Resources\PropertyPlanResource\RelationManagers;
+use App\Models\Property;
 use App\Models\PropertyPlan;
 use Filament\Forms;
 use Filament\Forms\Form;
@@ -26,9 +27,14 @@ class PropertyPlanResource extends Resource
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\TextInput::make('details')
+                Forms\Components\Textarea::make('details')
                     ->required()
                     ->maxLength(255),
+                Forms\Components\Select::make('property_id')
+                    ->options(Property::all()->pluck('title','id')->toArray())
+                    ->searchable()
+                    ->label('Property')
+                    ->required(),
                 Forms\Components\FileUpload::make('image')
                     ->image()
                     ->required(),
@@ -65,14 +71,14 @@ class PropertyPlanResource extends Resource
                 ]),
             ]);
     }
-    
+
     public static function getRelations(): array
     {
         return [
             //
         ];
     }
-    
+
     public static function getPages(): array
     {
         return [
@@ -80,5 +86,5 @@ class PropertyPlanResource extends Resource
             'create' => Pages\CreatePropertyPlan::route('/create'),
             'edit' => Pages\EditPropertyPlan::route('/{record}/edit'),
         ];
-    }    
+    }
 }

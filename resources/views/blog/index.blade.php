@@ -29,7 +29,7 @@
                             <h2 class="title">our blog</h2>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="{{route('index')}}">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Blog</li>
                                 </ol>
                             </nav>
@@ -46,87 +46,42 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="blog-item-wrap">
-                            <div class="blog-item blog-item-two">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="main/img/blog/bl_blog_img01.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h2 class="title"><a href="blog-details.html">Apartments designed by the leading interior experts</a></h2>
-                                    <div class="blog-meta">
-                                        <ul class="list-wrap">
-                                            <li>May 19, 2022</li>
-                                            <li><a href="blog.html">Nicole Willis</a></li>
-                                        </ul>
+                            @forelse($blogs as $blog)
+                                <div class="blog-item blog-item-two">
+                                    <div class="blog-thumb">
+                                        <a href="{{route('blogs.show',$blog->id)}}"><img src="main/img/blog/bl_blog_img01.jpg" alt=""></a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <h2 class="title"><a href="{{route('blogs.show',$blog->id)}}"></a>{{$blog->title}}</h2>
+                                        <div class="blog-meta">
+                                            <ul class="list-wrap">
+                                                <li>May 19, 2022</li>
+                                                <li><a href="{{route('blogs.index')}}">{{$blog->user->name}}</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="blog-item blog-item-two">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="main/img/blog/bl_blog_img02.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h2 class="title"><a href="blog-details.html">Nature inspired design in the heart of a metropolis</a></h2>
-                                    <div class="blog-meta">
-                                        <ul class="list-wrap">
-                                            <li>January 3, 2022</li>
-                                            <li><a href="blog.html">Nicole Willis</a></li>
-                                        </ul>
+                            @empty
+                                <div class="blog-item blog-item-two">
+                                    <div class="blog-content">
+                                        <h2 class="title"><a href=""></a>No Blogs available</h2>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="blog-item blog-item-two">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="main/img/blog/bl_blog_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h2 class="title"><a href="blog-details.html">Architecture is not based on concrete and steel</a></h2>
-                                    <div class="blog-meta">
-                                        <ul class="list-wrap">
-                                            <li>November 27, 2022</li>
-                                            <li><a href="blog.html">Nicole Willis</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-item blog-item-two">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="main/img/blog/bl_blog_img04.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h2 class="title"><a href="blog-details.html">space solutions and small apartment ideas</a></h2>
-                                    <div class="blog-meta">
-                                        <ul class="list-wrap">
-                                            <li>August 14, 2022</li>
-                                            <li><a href="blog.html">Nicole Willis</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-item blog-item-two">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="main/img/blog/bl_blog_img05.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h2 class="title"><a href="blog-details.html">7 Home Trends That Will Shape Your House In</a></h2>
-                                    <div class="blog-meta">
-                                        <ul class="list-wrap">
-                                            <li>June 9, 2022</li>
-                                            <li><a href="blog.html">Nicole Willis</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforelse
+
+
                         </div>
-                        <div class="pagination-wrap">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination list-wrap">
-                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+                        {{$blogs->links()}}
+{{--                        <div class="pagination-wrap">--}}
+{{--                            <nav aria-label="Page navigation example">--}}
+{{--                                <ul class="pagination list-wrap">--}}
+{{--                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>--}}
+{{--                                    <li class="page-item"><a class="page-link" href="#">2</a></li>--}}
+{{--                                    <li class="page-item"><a class="page-link" href="#">3</a></li>--}}
+{{--                                    <li class="page-item"><a class="page-link" href="#">4</a></li>--}}
+{{--                                </ul>--}}
+{{--                            </nav>--}}
+{{--                        </div>--}}
                     </div>
                     <div class="col-lg-4 col-md-8">
                         <aside class="blog-sidebar">
@@ -142,33 +97,30 @@
                                 <h2 class="bw-title">Categories</h2>
                                 <div class="bw-cat-list">
                                     <ul class="list-wrap">
-                                        <li><a href="#">Architecture</a></li>
-                                        <li><a href="#">House</a></li>
-                                        <li><a href="#">Property</a></li>
-                                        <li><a href="#">Real Estate</a></li>
-                                        <li><a href="#">Residence</a></li>
+                                        @foreach($categories as $category)
+                                            <li><a href="">{{$category->name}}</a></li>
+                                        @endforeach
+
+
                                     </ul>
                                 </div>
                             </div>
                             <div class="blog-widget">
-                                <h2 class="bw-title">Popular posts</h2>
+                                <h2 class="bw-title">Featured posts</h2>
                                 <div class="post-list-wrap">
-                                    <div class="post-item">
-                                        <h4 class="title"><a href="blog-details.html">7 Home Trends That Will Shape Your House In</a></h4>
-                                        <span>June 9, 2022</span>
-                                    </div>
-                                    <div class="post-item">
-                                        <h4 class="title"><a href="blog-details.html">space solutions and small apartment ideas</a></h4>
-                                        <span>August 14, 2022</span>
-                                    </div>
-                                    <div class="post-item">
-                                        <h4 class="title"><a href="blog-details.html">Skills That You Can Learn In The Real Estate Market</a></h4>
-                                        <span>june 26, 2022</span>
-                                    </div>
-                                    <div class="post-item">
-                                        <h4 class="title"><a href="blog-details.html">Learn The Truth About Real Estate Industry</a></h4>
-                                        <span>January 10, 2022</span>
-                                    </div>
+                                    @forelse($featured_blogs as $item)
+                                        <div class="post-item">
+                                            <h4 class="title"><a href="{{route('blogs.show',$item->id)}}">{{$item->title}}</a></h4>
+                                            <span>{{$item->created_at}}</span>
+                                        </div>
+                                    @empty
+                                        <div class="post-item">
+                                            <h4 class="title"><a href=""> No Featured Posts</a></h4>
+
+                                        </div>
+                                    @endforelse
+
+
                                 </div>
                             </div>
                             <div class="blog-widget">

@@ -94,16 +94,21 @@
                             <h2 class="title">Let’s make something new together</h2>
                         </div>
                         <div class="contact-form-wrap">
-                            <form action="#">
+                            <form action="{{route('contact-us')}}" method="">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-grp">
-                                            <input type="text" placeholder="Your name" required="required">
+                                            <input type="text" name="name" placeholder="Your name" required="required">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-grp">
-                                            <input type="text" placeholder="Phone number" required="required">
+                                            <input type="email" name="email" placeholder="Email" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-grp">
+                                            <input type="text" name="phone" placeholder="Phone number" required="required">
                                         </div>
                                     </div>
                                 </div>
@@ -111,7 +116,7 @@
                                     <textarea name="message" placeholder="Write message" required="required"></textarea>
                                 </div>
                                 <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="checkbox">
+                                    <input type="checkbox" name="terms" class="form-check-input" id="checkbox">
                                     <label for="checkbox">I accept <span>Terms & Conditions</span> for processing personal data</label>
                                 </div>
                                 <div class="form-submit">
