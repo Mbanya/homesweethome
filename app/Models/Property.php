@@ -15,6 +15,10 @@ class Property extends Model
         'image' => 'array',
     ];
 
+    public function getRouteKeyName(): string
+    {
+        return 'title';
+    }
 
     public function city(): BelongsTo
     {

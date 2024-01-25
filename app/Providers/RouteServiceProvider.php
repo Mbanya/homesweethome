@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Property;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Http\Request;
@@ -35,6 +36,16 @@ class RouteServiceProvider extends ServiceProvider
 
             Route::middleware('web')
                 ->group(base_path('routes/web.php'));
+        });
+
+        // Exclude specific routes from model binding
+        Route::bind('properties', function ($value) {
+            // Check if the request is for an asset route
+            if (request()->is('main/*')) {
+                return $value;
+            }
+
+            return Property::where('title', $value)->firstOrFail();
         });
     }
 }

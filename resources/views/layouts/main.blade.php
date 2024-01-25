@@ -55,6 +55,7 @@
 @yield('content')
 
 
-
+<!-- JS here -->
+{{--@include('partials.sub-page-scripts')--}}
 </body>
 </html>

@@ -15,7 +15,7 @@ class PropertyController extends Controller
      */
     public function index()
     {
-        $properties = Property::query()->where('status',1)->paginate(6);
+        $properties = Property::query()->where('status',1)->paginate(8);
         $housetypes = HouseType::query()->get();
         $saletypes = SaleType::query()->get();
 
@@ -38,9 +38,11 @@ class PropertyController extends Controller
      */
     public function show(string $title)
     {
-        $property = Property::query()->where('title','=',$title)->get();
+        $property = Property::query()->where('title','=',$title)->first();
 
-        return view('properties.show',['property'=> $property]);
+//        dd($property);
+
+        return view('properties.show',['item'=> $property]);
     }
 
 

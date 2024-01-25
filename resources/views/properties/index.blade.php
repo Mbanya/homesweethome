@@ -96,11 +96,11 @@
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="project-item">
                                     <div class="project-thumb">
-                                        <a href="{{route('properties.show',$item->id)}}"><img src="main/img/project/project_img01.jpg" alt=""></a>
+                                        <a href="{{route('properties.show',$item->title)}}"><img src="{{asset(Storage::url($item->banner_image))}}" alt=""></a>
                                     </div>
                                     <div class="project-content">
-                                        <h3 class="title"><a href="{{route('properties.show',$item->id)}}">{{$item->title}}</a></h3>
-                                        <span>{{$item->city->name}} "{{$item->address_1}}</span>
+                                        <h3 class="title"><a href="{{route('properties.show',$item->title)}}">{{$item->title}}</a></h3>
+                                        <span>{{$item->city->name}} {{$item->address_1}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -118,16 +118,7 @@
                 </div>
                 {{$properties->links()}}
 
-{{--                <div class="pagination-wrap">--}}
-{{--                    <nav aria-label="Page navigation example">--}}
-{{--                        <ul class="pagination list-wrap">--}}
-{{--                            <li class="page-item active"><a class="page-link" href="#">1</a></li>--}}
-{{--                            <li class="page-item"><a class="page-link" href="#">2</a></li>--}}
-{{--                            <li class="page-item"><a class="page-link" href="#">3</a></li>--}}
-{{--                            <li class="page-item"><a class="page-link" href="#">4</a></li>--}}
-{{--                        </ul>--}}
-{{--                    </nav>--}}
-{{--                </div>--}}
+
             </div>
         </section>
         <!-- project-area-end -->

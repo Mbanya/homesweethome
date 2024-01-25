@@ -44,7 +44,7 @@
         <section class="contact-info pb-100">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-6 col-sm-10">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="contact-info-item">
                             <span class="sub-title">Main office</span>
                             <h2 class="title">Off Dennis Pritt Rd, Opposite Retreat Villas, Inside a Green Gate
@@ -55,17 +55,17 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-10">
-                        <div class="contact-info-item">
-                            <span class="sub-title">Second office</span>
-                            <h2 class="title">Off Dennis Pritt Rd, Opposite Retreat Villas, Inside a Green Gate
-                                Nairobi, Kenya</h2>
-                            <ul class="list-wrap">
-                                <li> <a href="mailto:homesweethome@gmail.co.ke">homesweethome@gmail.co.ke</a></li>
-                                <li><a href="tel:254743771777">+254 743 771777</a></li>
-                            </ul>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-6 col-md-6 col-sm-10">--}}
+{{--                        <div class="contact-info-item">--}}
+{{--                            <span class="sub-title">Second office</span>--}}
+{{--                            <h2 class="title">Off Dennis Pritt Rd, Opposite Retreat Villas, Inside a Green Gate--}}
+{{--                                Nairobi, Kenya</h2>--}}
+{{--                            <ul class="list-wrap">--}}
+{{--                                <li> <a href="mailto:homesweethome@gmail.co.ke">homesweethome@gmail.co.ke</a></li>--}}
+{{--                                <li><a href="tel:254743771777">+254 743 771777</a></li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
                 </div>
             </div>
@@ -106,7 +106,7 @@
                                             <input type="email" name="email" placeholder="Email" required="required">
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <div class="form-grp">
                                             <input type="text" name="phone" placeholder="Phone number" required="required">
                                         </div>

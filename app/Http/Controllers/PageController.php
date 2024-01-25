@@ -14,7 +14,7 @@ class PageController extends Controller
     public function index()
     {
 
-        $featured_projects = Property::query()->where('featured','=','1')->get();
+        $featured_projects = Property::query()->where('featured','=','1')->paginate(4);
         $testimonials = Testimonial::query()->where('status',1)->get();
         $blogs = Blog::query()->where('status',1)->get();
         return view('index',

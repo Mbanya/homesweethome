@@ -1,6 +1,6 @@
 <section class="slider-area">
     <div class="slider-active">
-        <div class="single-slider slider-bg" data-background="assets/img/banner/banner_img01.jpg">
+        <div class="single-slider slider-bg" data-background="{{asset('main/img/banner/hero-1.jpeg')}}">
             <div class="slider-right-bg" data-animation="tgFadeInRight" data-delay=".8s" data-background="assets/img/banner/banner_right_img01.jpg"></div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="single-slider slider-bg" data-background="assets/img/banner/banner_img02.jpg">
+        <div class="single-slider slider-bg" data-background="{{asset('main/img/banner/hero-2.jpeg')}}">
             <div class="slider-right-bg" data-animation="tgFadeInRight" data-delay=".8s" data-background="assets/img/banner/banner_right_img02.jpg"></div>
             <div class="container">
                 <div class="row justify-content-center">

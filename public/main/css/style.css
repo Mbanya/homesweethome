@@ -950,7 +950,8 @@ label {
 	color: var(--tg-primary-color);
 }
 .header-style-five .navbar-wrap ul li a {
-	color: var(--tg-secondary-color);
+	/*color: var(--tg-secondary-color);*/
+	/*color: white;*/
 }
 .header-style-five .navbar-wrap > ul > li > a:hover,
 .header-style-five .navbar-wrap > ul > li.active > a {
@@ -2203,7 +2204,7 @@ label {
 	14. Video
 ===============================*/
 .video-bg {
-	background-image: url(../img/bg/video_bg.jpg);
+	background-image: url(../img/banner/video-bg.jpeg);
 	background-size: cover;
 	background-position: center;
 	height: 800px;

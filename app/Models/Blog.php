@@ -13,6 +13,11 @@ class Blog extends Model
 
     protected $guarded = [];
 
+    public function getRouteKeyName(): string
+    {
+        return 'title';
+    }
+
     public function category(): BelongsTo
     {
         return $this->belongsTo(Category::class);

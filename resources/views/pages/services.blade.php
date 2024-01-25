@@ -55,11 +55,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-10">
                         <div class="services-item">
                             <div class="services-thumb">
-                                <a href="#"><img src="main/img/images/services_01.png" alt=""></a>
+                                <a href="#"><img src="{{asset('main/img/services/buy.jpeg')}}" alt=""></a>
                             </div>
                             <div class="services-content">
                                 <h2 class="title"><a href="#">Buy</a></h2>
-                                <p>2-Own a property that meets your standards. Explore a curated selection of houses
+                                <p>Own a property that meets your standards. Explore a curated selection of houses
                                     to meet your needs. From selection to closing, rely on us for a seamless experience for
                                     everything in between.
 
@@ -71,7 +71,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-10">
                         <div class="services-item">
                             <div class="services-thumb">
-                                <a href="#"><img src="main/img/images/services_02.png" alt=""></a>
+                                <a href="#"><img src="{{asset('main/img/services/sell.jpeg')}}" alt=""></a>
                             </div>
                             <div class="services-content">
                                 <h2 class="title"><a href="#">Rent </a></h2>
@@ -87,7 +87,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-10">
                         <div class="services-item">
                             <div class="services-thumb">
-                                <a href="#"><img src="main/img/images/services_03.png" alt=""></a>
+                                <a href="#"><img src="{{asset('main/img/services/lease.jpeg')}}" alt=""></a>
                             </div>
                             <div class="services-content">
                                 <h2 class="title"><a href="#">Lease </a></h2>
@@ -111,7 +111,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="video-bg">
-                            <a href="https://www.youtube.com/watch?v=c-goZSYW6qE" class="popup-video play-btn"><i class="fab fa-youtube"></i></a>
+{{--                            <a href="https://www.youtube.com/watch?v=c-goZSYW6qE" class="popup-video play-btn"><i class="fab fa-youtube"></i></a>--}}
+                            <a href="{{asset('main/video/video-hsh-2.mp4')}}" class="popup-video play-btn"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>

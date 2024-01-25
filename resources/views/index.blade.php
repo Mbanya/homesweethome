@@ -105,7 +105,11 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="video-bg wow fadeInUp" data-wow-delay=".2s">
-                            <a href="https://www.youtube.com/watch?v=c-goZSYW6qE" class="popup-video play-btn"><i class="fab fa-youtube"></i></a>
+{{--                            <video id="video-background" autoplay loop muted>--}}
+{{--                                <source src="{{asset('main/video/hsh-hero-image.mp4')}}" type="video/mp4">--}}
+{{--                                Your browser does not support the video tag.--}}
+{{--                            </video>--}}
+                            <a href="{{asset('main/video/video-hsh-2.mp4')}}" class="popup-video play-btn"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -113,86 +117,70 @@
         </div>
         <!-- video-area-end -->
 
-        <!-- features-area -->
-        <section class="features-area section-pt-140 features-pb-80">
+        <!-- services-area -->
+        <section class="services-area section-pt-140 section-pb-100">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-10">
-                        <div class="features-item">
-                            <div class="feature-icon">
-                                <i class="flaticon-001-sofa"></i>
-                            </div>
-                            <div class="feature-content">
-                                <h2 class="title">Property Valuation</h2>
-                                <p>
-                                    Discover the true value of your property.Our expert valuation analyses market
-                                    trends and property details unlocking accurate valuation so you can make the best of it.
-                                </p>
-                            </div>
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="section-title text-center mb-55">
+                            <span class="sub-title">What we do</span>
+                            <h2 class="title">Buy, Rent or Lease</h2>
                         </div>
                     </div>
+                </div>
+                <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-10">
-                        <div class="features-item">
-                            <div class="feature-icon">
-                                <i class="flaticon-002-plants"></i>
+                        <div class="services-item">
+                            <div class="services-thumb">
+                                <a href="#"><img src="{{asset('main/img/services/buy.jpeg')}}" alt=""></a>
                             </div>
-                            <div class="feature-content">
-                                <h2 class="title">Listing Homes</h2>
-                                <p>
-                                    Showcase your property&#39;s potential with our tailored listing services. We’ll
-                                    advertise your property’s uniqueness, leveraging strategic marketing to attract the right
-                                    buyers and speed up the selling process.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10">
-                        <div class="features-item">
-                            <div class="feature-icon">
-                                <i class="flaticon-003-chandelier"></i>
-                            </div>
-                            <div class="feature-content">
-                                <h2 class="title">Marketing Properties</h2>
-                                <p>Give your property the attention it deserves. Our creative and innovative
-                                    strategies will draw eyes to highlight its features to receive the attention it deserves.
-                                    Experience a new level of property marketing with us.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10">
-                        <div class="features-item">
-                            <div class="feature-icon">
-                                <i class="flaticon-004-headset"></i>
-                            </div>
-                            <div class="feature-content">
-                                <h2 class="title">Negotiating Deals</h2>
-                                <p>
-                                    Whether buying or selling, we’re dedicated to bagging the best deal. Our finesse
-                                    extends negotiating, we prioritize protecting our clients&#39; best interests.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-10">
-                        <div class="features-item">
-                            <div class="feature-icon">
-                                <i class="flaticon-005-leader"></i>
-                            </div>
-                            <div class="feature-content">
-                                <h2 class="title">Guiding Clients Through the Buying or Selling Process</h2>
-                                <p>
-                                    Embrace confidence in finding the ideal property. We’ll walk in step from initial
-                                    consulting to closing the deal, expect unwavering support when buying, selling or renting.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                            <div class="services-content">
+                                <h2 class="title"><a href="#">Buy</a></h2>
+                                <p>Own a property that meets your standards. Explore a curated selection of houses
+                                    to meet your needs. From selection to closing, rely on us for a seamless experience for
+                                    everything in between.
 
+                                </p>
+                                <a href="#" class="text-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="services-item">
+                            <div class="services-thumb">
+                                <a href="#"><img src="{{asset('main/img/services/sell.jpeg')}}" alt=""></a>
+                            </div>
+                            <div class="services-content">
+                                <h2 class="title"><a href="#">Rent </a></h2>
+                                <p>
+                                    Searching for the ideal rental? Your search ends here. Uncover hidden gems and
+                                    sanctuaries in the heart of Nairobi and Dubai to call home. From apartments to houses, your
+                                    ideal space awaits at the beat of your fingertips.
+                                </p>
+                                <a href="#" class="text-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
+                        <div class="services-item">
+                            <div class="services-thumb">
+                                <a href="#"><img src="{{asset('main/img/services/lease.jpeg')}}" alt=""></a>
+                            </div>
+                            <div class="services-content">
+                                <h2 class="title"><a href="#">Lease </a></h2>
+                                <p>
+                                    Match up your flexibility with the new way of living; in comfort, style, and
+                                    convenience. Experience the perfect stays in short-term sanctuaries and long-term havens.
+                                    Check out our ready live-in options.
+                                </p>
+                                <a href="#" class="text-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- features-area-end -->
+        <!-- services-area-end -->
 
         <!-- project-area -->
         <section class="project-area section-py-140">
@@ -211,11 +199,12 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="project-item">
                                 <div class="project-thumb">
-                                    <a href="{{route('properties.index')}}"><img src="main/img/project/project_img01.jpg" alt=""></a>
+                                    <a href="{{route('properties.show',$item->title)}}">
+                                        <img src="{{asset(Storage::url($item->banner_image))}}" alt="{{$item->title}}"></a>
                                 </div>
                                 <div class="project-content">
-                                    <h3 class="title"><a href="{{route('properties.show',$item->id)}}l">New Central Garden</a></h3>
-                                    <span>Baltimore, MD</span>
+                                    <h3 class="title"><a href="{{route('properties.show',$item->title)}}l">{{$item->title}}</a></h3>
+                                    <span>{{$item->city->name}}</span>
                                 </div>
                             </div>
                         </div>
@@ -259,7 +248,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
 
-                        @foreach($testimonials as $item)
+                        @forelse($testimonials as $item)
                             <div class="testimonial-item">
                                 <div class="testimonial-thumb">
                                     <img src="main/img/images/testimonial_avatar01.png" alt="">
@@ -280,8 +269,11 @@
 {{--                                    <span>Mike Stevenson <br> Florida</span>--}}
 {{--                                </div>--}}
 {{--                            </div>--}}
-
-                        @endforeach
+                        @empty
+                            <div class="section-title text-center mb-60">
+                                <span class="sub-title">No Testimonials Available</span>
+                            </div>
+                        @endforelse
 
 
                     </div>
@@ -298,7 +290,7 @@
                         <div class="section-title mb-50">
                             <span class="sub-title">From our blog</span>
                             <h2 class="title">Latest news & events</h2>
-                            <a href="blog.html" class="btn transparent-btn">
+                            <a href="{{route('blogs.index')}}" class="btn transparent-btn">
                                 <div class="btn_m">
                                     <div class="btn_c">
                                         <div class="btn_t1">Explore all</div>
@@ -330,7 +322,7 @@
                                     </div>
 
                                     @empty
-                                    <h2 class="title"><a href="#">No Blogs</a></h2>
+                                    <h2 class="title"><a href="">No Blogs</a></h2>
                                 @endforelse
 
 
