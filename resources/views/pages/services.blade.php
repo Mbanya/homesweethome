@@ -216,7 +216,7 @@
                                     <div class="newsletter-content">
                                         <div class="section-title mb-50">
                                             <span class="sub-title">Quick Inquiry</span>
-                                            <h2 class="title">If you have any question? we are glad to consult you as soon as possible</h2>
+                                            <h2 class="title">Do you have a question or concern? We are happy to address the concerns in person</h2>
                                         </div>
                                         <form action="#" class="newsletter-form">
                                             <ul class="list-wrap">

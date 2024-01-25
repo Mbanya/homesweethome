@@ -91,7 +91,7 @@
                     <div class="col-xl-6 col-lg-8">
                         <div class="section-title text-center mb-55">
                             <span class="sub-title">leave a message</span>
-                            <h2 class="title">Let’s make something new together</h2>
+                            <h2 class="title">Let’s find an ideal property that suits you together</h2>
                         </div>
                         <div class="contact-form-wrap">
                             <form action="{{route('contact-us')}}" method="">

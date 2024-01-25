@@ -46,7 +46,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-img text-center">
-                            <img src="main/img/images/about_img.jpg" alt="">
+                            <img src="{{asset('main/img/about/who-we-are-2.jpeg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -119,7 +119,7 @@
         <!-- counter-area-end -->
 
         <!-- parallax-img-area -->
-        <div class="parallax-img parallax-img" data-background="main/img/bg/parallax-img.jpg" data-jarallax data-video-src="https://www.youtube.com/watch?v=vvNwlRLjLkU"></div>
+        <div class="parallax-img parallax-img" data-background="{{asset('main/img/banner/video-bg.jpeg')}}" data-jarallax data-video-src="{{asset('main/video/video-hsh-2.mp4')}}"></div>
         <!-- parallax-img-area-end -->
 
         <!-- roadMap-area -->
@@ -369,7 +369,7 @@
                                     <div class="newsletter-content">
                                         <div class="section-title mb-50">
                                             <span class="sub-title">Quick Inquiry</span>
-                                            <h2 class="title">If you have any question? we are glad to consult you as soon as possible</h2>
+                                            <h2 class="title">Do you have a question or concern? We are happy to address the concerns in person</h2>
                                         </div>
                                         <form action="#" class="newsletter-form">
                                             <ul class="list-wrap">
