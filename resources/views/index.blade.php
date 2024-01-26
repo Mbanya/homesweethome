@@ -203,7 +203,9 @@
                                         <img src="{{asset(Storage::url($item->banner_image))}}" alt="{{$item->title}}"></a>
                                 </div>
                                 <div class="project-content">
-                                    <h3 class="title"><a href="{{route('properties.show',$item->title)}}l">{{$item->title}}</a></h3>
+                                    <h3 class="title">
+                                        <a href="{{route('properties.show',$item->title)}}">{{$item->title}}</a>
+                                    </h3>
                                     <span>{{$item->city->name}}</span>
                                 </div>
                             </div>
