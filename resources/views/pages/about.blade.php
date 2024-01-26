@@ -242,120 +242,120 @@
         <!-- roadMap-area-end -->
 
         <!-- team-area -->
-        <section class="team-area-two">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-7">
-                        <div class="section-title text-center mb-55">
-                            <span class="sub-title">Leadership</span>
-                            <h2 class="title">Meet with our amazing team members</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-item-wrap">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-3 col-md-4 col-sm-6">
-                            <div class="team-item">
-                                <div class="team-thumb">
-                                    <a href="team-details.html"><img src="main/img/team/team_img01.jpg" alt=""></a>
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="title"><a href="team-details.html">Johan Johnson</a></h3>
-                                    <span>Architect</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6">
-                            <div class="team-item">
-                                <div class="team-thumb">
-                                    <a href="team-details.html"><img src="main/img/team/team_img02.jpg" alt=""></a>
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="title"><a href="team-details.html">Jacob Jones</a></h3>
-                                    <span>Founder</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6">
-                            <div class="team-item">
-                                <div class="team-thumb">
-                                    <a href="team-details.html"><img src="main/img/team/team_img03.jpg" alt=""></a>
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="title"><a href="team-details.html">Eleanor Pena</a></h3>
-                                    <span>Head of Design</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6">
-                            <div class="team-item">
-                                <div class="team-thumb">
-                                    <a href="team-details.html"><img src="main/img/team/team_img04.jpg" alt=""></a>
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="title"><a href="team-details.html">Bessie Cooper</a></h3>
-                                    <span>Product Manager</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6">
-                            <div class="team-item">
-                                <div class="team-thumb">
-                                    <a href="team-details.html"><img src="main/img/team/team_img05.jpg" alt=""></a>
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="title"><a href="team-details.html">Kim Smith</a></h3>
-                                    <span>Marketer</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6">
-                            <div class="team-item">
-                                <div class="team-thumb">
-                                    <a href="team-details.html"><img src="main/img/team/team_img06.jpg" alt=""></a>
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="title"><a href="team-details.html">Courtney Henry</a></h3>
-                                    <span>Account Manager</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6">
-                            <div class="team-item">
-                                <div class="team-thumb">
-                                    <a href="team-details.html"><img src="main/img/team/team_img07.jpg" alt=""></a>
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="title"><a href="team-details.html">Theresa Webb</a></h3>
-                                    <span>Architect</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6">
-                            <div class="team-item">
-                                <div class="team-thumb">
-                                    <a href="team-details.html"><img src="main/img/team/team_img08.jpg" alt=""></a>
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="title"><a href="team-details.html">Belva Boyd</a></h3>
-                                    <span>Architect</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="view-more-btn text-center mt-30">
-                    <a href="team.html" class="btn transparent-btn">
-                        <div class="btn_m">
-                            <div class="btn_c">
-                                <div class="btn_t1">View all members</div>
-                                <div class="btn_t2">View all members</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
+{{--        <section class="team-area-two">--}}
+{{--            <div class="container">--}}
+{{--                <div class="row justify-content-center">--}}
+{{--                    <div class="col-xl-6 col-lg-7">--}}
+{{--                        <div class="section-title text-center mb-55">--}}
+{{--                            <span class="sub-title">Leadership</span>--}}
+{{--                            <h2 class="title">Meet with our amazing team members</h2>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="team-item-wrap">--}}
+{{--                    <div class="row justify-content-center">--}}
+{{--                        <div class="col-xl-3 col-md-4 col-sm-6">--}}
+{{--                            <div class="team-item">--}}
+{{--                                <div class="team-thumb">--}}
+{{--                                    <a href="team-details.html"><img src="main/img/team/team_img01.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="team-content">--}}
+{{--                                    <h3 class="title"><a href="team-details.html">Johan Johnson</a></h3>--}}
+{{--                                    <span>Architect</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-xl-3 col-md-4 col-sm-6">--}}
+{{--                            <div class="team-item">--}}
+{{--                                <div class="team-thumb">--}}
+{{--                                    <a href="team-details.html"><img src="main/img/team/team_img02.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="team-content">--}}
+{{--                                    <h3 class="title"><a href="team-details.html">Jacob Jones</a></h3>--}}
+{{--                                    <span>Founder</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-xl-3 col-md-4 col-sm-6">--}}
+{{--                            <div class="team-item">--}}
+{{--                                <div class="team-thumb">--}}
+{{--                                    <a href="team-details.html"><img src="main/img/team/team_img03.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="team-content">--}}
+{{--                                    <h3 class="title"><a href="team-details.html">Eleanor Pena</a></h3>--}}
+{{--                                    <span>Head of Design</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-xl-3 col-md-4 col-sm-6">--}}
+{{--                            <div class="team-item">--}}
+{{--                                <div class="team-thumb">--}}
+{{--                                    <a href="team-details.html"><img src="main/img/team/team_img04.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="team-content">--}}
+{{--                                    <h3 class="title"><a href="team-details.html">Bessie Cooper</a></h3>--}}
+{{--                                    <span>Product Manager</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-xl-3 col-md-4 col-sm-6">--}}
+{{--                            <div class="team-item">--}}
+{{--                                <div class="team-thumb">--}}
+{{--                                    <a href="team-details.html"><img src="main/img/team/team_img05.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="team-content">--}}
+{{--                                    <h3 class="title"><a href="team-details.html">Kim Smith</a></h3>--}}
+{{--                                    <span>Marketer</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-xl-3 col-md-4 col-sm-6">--}}
+{{--                            <div class="team-item">--}}
+{{--                                <div class="team-thumb">--}}
+{{--                                    <a href="team-details.html"><img src="main/img/team/team_img06.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="team-content">--}}
+{{--                                    <h3 class="title"><a href="team-details.html">Courtney Henry</a></h3>--}}
+{{--                                    <span>Account Manager</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-xl-3 col-md-4 col-sm-6">--}}
+{{--                            <div class="team-item">--}}
+{{--                                <div class="team-thumb">--}}
+{{--                                    <a href="team-details.html"><img src="main/img/team/team_img07.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="team-content">--}}
+{{--                                    <h3 class="title"><a href="team-details.html">Theresa Webb</a></h3>--}}
+{{--                                    <span>Architect</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-xl-3 col-md-4 col-sm-6">--}}
+{{--                            <div class="team-item">--}}
+{{--                                <div class="team-thumb">--}}
+{{--                                    <a href="team-details.html"><img src="main/img/team/team_img08.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="team-content">--}}
+{{--                                    <h3 class="title"><a href="team-details.html">Belva Boyd</a></h3>--}}
+{{--                                    <span>Architect</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="view-more-btn text-center mt-30">--}}
+{{--                    <a href="team.html" class="btn transparent-btn">--}}
+{{--                        <div class="btn_m">--}}
+{{--                            <div class="btn_c">--}}
+{{--                                <div class="btn_t1">View all members</div>--}}
+{{--                                <div class="btn_t2">View all members</div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </section>--}}
         <!-- team-area-end -->
 
         <!-- newsletter-area -->

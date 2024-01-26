@@ -25,7 +25,7 @@
                                             <li class="menu-item-has-children"><a href="{{route('about-us')}}">About</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="{{route('our-mission')}}">Mission</a></li>
-                                                    <li><a href="{{route('our-team')}}">Our Team</a></li>
+{{--                                                    <li><a href="{{route('our-team')}}">Our Team</a></li>--}}
 
                                                 </ul>
                                             </li>
