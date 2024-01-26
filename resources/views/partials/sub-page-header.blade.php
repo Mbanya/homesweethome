@@ -18,7 +18,7 @@
                                     <li class="menu-item-has-children {{request()->routeIs(['about-us','our-mission','our-team'])  ? 'active' : ''}}"><a href="{{route('about-us')}}">About</a>
                                         <ul class="sub-menu">
                                             <li class="{{request()->routeIs('our-mission') ? 'active' : ''}}"><a href="{{route('our-mission')}}">Mission</a></li>
-                                            <li class="{{request()->routeIs('our-team') ? 'active' : ''}}"><a href="{{route('our-team')}}">Our Team</a></li>
+{{--                                            <li class="{{request()->routeIs('our-team') ? 'active' : ''}}"><a href="{{route('our-team')}}">Our Team</a></li>--}}
 
                                         </ul>
                                     </li>
