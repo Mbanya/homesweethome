@@ -16,7 +16,7 @@
                             <div class="footer-contact">
                                 <p>Off Dennis Pritt Rd, Opposite Retreat Villas, <br> Nairobi, Kenya</p>
                                 <ul class="list-wrap">
-                                    <li><a href="mailto:homesweethome@mail.com">homesweethome@mail.com</a></li>
+                                    <li><a href="mailto:homesweethome@mail.com">homesweethome@gmail.com</a></li>
                                     <li><a href="tel:254743771777">+254 743 771777</a></li>
                                 </ul>
                             </div>
@@ -29,7 +29,7 @@
                                 <ul class="list-wrap">
                                     <li><a href="{{route('about-us')}}">About Us</a></li>
                                     <li><a href="">Terms & Conditions</a></li>
-                                    <li><a href="{{route('faqs')}}">FAQs</a></li>
+{{--                                    <li><a href="{{route('faqs')}}">FAQs</a></li>--}}
                                     <li><a href="{{route('our-services')}}">Services</a></li>
                                 </ul>
                             </div>

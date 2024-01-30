@@ -53,7 +53,7 @@
                         <div class="about-content">
                             <div class="section-title mb-40">
                                 <span class="sub-title">Who we are</span>
-                                <h2 class="title">A DECADE OF EXPERTISE, CONFIDENCE, AND ASSURANCE IN REAL ESTATEr</h2>
+                                <h2 class="title">A DECADE OF EXPERTISE, CONFIDENCE, AND ASSURANCE IN REAL ESTATE</h2>
                             </div>
                             <p>
                                 For 10 years, Home Sweet Home has been a trusted partner in real estate,
@@ -359,37 +359,7 @@
         <!-- team-area-end -->
 
         <!-- newsletter-area -->
-        <section class="newsletter-area newsletter-area-two section-py-140">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="newsletter-inner">
-                            <div class="row justify-content-center">
-                                <div class="col-xl-8">
-                                    <div class="newsletter-content">
-                                        <div class="section-title mb-50">
-                                            <span class="sub-title">Quick Inquiry</span>
-                                            <h2 class="title">Do you have a question or concern? We are happy to address the concerns in person</h2>
-                                        </div>
-                                        <form action="#" class="newsletter-form">
-                                            <ul class="list-wrap">
-                                                <li><input type="text" placeholder="Your name" required="required"></li>
-                                                <li><input type="text" placeholder="Phone number" required="required"></li>
-                                                <li class="submit-btn"><input type="submit" value="submit"></li>
-                                            </ul>
-                                            <div class="form-check">
-                                                <input type="checkbox" class="form-check-input" id="checkbox">
-                                                <label for="checkbox">I accept <span>Terms & Conditions</span> for processing personal data</label>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       @include('partials.newsletter')
         <!-- newsletter-area-end -->
 
     </main>

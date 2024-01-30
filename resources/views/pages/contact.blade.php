@@ -1,5 +1,6 @@
 @extends('layouts.main')
 
+
 @section('assets')
 @endsection
 
@@ -47,7 +48,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="contact-info-item">
                             <span class="sub-title">Main office</span>
-                            <h2 class="title">Off Dennis Pritt Rd, Opposite Retreat Villas, Inside a Green Gate
+                            <h2 class="title">Off Dennis Pritt Rd, Opposite Retreat Villas,
                                 Nairobi, Kenya</h2>
                             <ul class="list-wrap">
                                 <li> <a href="mailto:homesweethome@gmail.co.ke">homesweethome@gmail.co.ke</a></li>
@@ -94,26 +95,27 @@
                             <h2 class="title">Let’s find an ideal property that suits you together</h2>
                         </div>
                         <div class="contact-form-wrap">
-                            <form action="{{route('contact-us')}}" method="">
+                            <form action="{{route('contact-us')}}" method="POST">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-grp">
-                                            <input type="text" name="name" placeholder="Your name" required="required">
+                                            <input type="text" name="name" placeholder="Your name" required="required" id="name">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-grp">
-                                            <input type="email" name="email" placeholder="Email" required="required">
+                                            <input type="email" name="email" placeholder="Email" required="required" id="email">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-grp">
-                                            <input type="text" name="phone" placeholder="Phone number" required="required">
+                                            <input type="text" name="phone" placeholder="Phone number" required="required" id="phone">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-grp">
-                                    <textarea name="message" placeholder="Write message" required="required"></textarea>
+                                    <textarea name="message" placeholder="Write message" id="message" required="required"></textarea>
                                 </div>
                                 <div class="form-check">
                                     <input type="checkbox" name="terms" class="form-check-input" id="checkbox">

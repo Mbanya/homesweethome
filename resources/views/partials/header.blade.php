@@ -19,17 +19,12 @@
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
-                                            <li class="active menu-"><a href="">Home</a>
+                                            <li class="{{request()->routeIs('index') ? 'active' : ''}} menu-"><a href="">Home</a>
 
                                             </li>
-                                            <li class="menu-item-has-children"><a href="{{route('about-us')}}">About</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="{{route('our-mission')}}">Mission</a></li>
-{{--                                                    <li><a href="{{route('our-team')}}">Our Team</a></li>--}}
-
-                                                </ul>
+                                            <li class="{{request()->routeIs('about-us') ? 'active' : ''}} menu" ><a href="{{route('about-us')}}">About</a>
                                             </li>
-                                            <li class="menu"><a href="#">Properties</a>
+                                            <li class="menu {{request()->routeIs('index') ? 'active' : ''}}"><a href="{{route('properties.index')}}">Properties</a>
 
                                             </li>
                                         </ul>
@@ -40,12 +35,12 @@
                                             <a href="{{route('index')}}"><img src="{{asset('main/img/logo/hs-logo.png')}}" alt="Logo"></a>
                                         </div>
                                         <ul class="navigation right">
-                                            <li class="menu"><a href="{{route('our-services')}}">Services</a>
+                                            <li class="menu {{request()->routeIs('our-services') ? 'active' : ''}}"><a href="{{route('our-services')}}">Services</a>
                                             </li>
-                                            <li class="menu"><a href="{{route('blogs.index')}}">Blog</a>
+                                            <li class="menu {{request()->routeIs('blogs.index') ? 'active' : ''}}"><a href="{{route('blogs.index')}}">Blog</a>
 
                                             </li>
-                                            <li><a href="{{route('contact-us')}}l">contacts</a></li>
+                                            <li class="menu {{request()->routeIs('contact-us') ? 'active' : ''}}"><a href="{{route('contact-us')}}l">contacts</a></li>
                                         </ul>
                                     </div>
                                 </div>

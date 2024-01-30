@@ -15,6 +15,7 @@ class PropertyController extends Controller
      */
     public function index()
     {
+        $page_name = 'Properties Page';
         $properties = Property::query()->where('status',1)->paginate(8);
         $housetypes = HouseType::query()->get();
         $saletypes = SaleType::query()->get();
@@ -27,7 +28,8 @@ class PropertyController extends Controller
             'properties'=>$properties,
             'housetypes' => $housetypes,
             'saletypes'=>$saletypes,
-            'locations' => $locations
+            'locations' => $locations,
+            'page_name'=> $page_name
 
         ]);
     }
@@ -38,11 +40,12 @@ class PropertyController extends Controller
      */
     public function show(string $title)
     {
+        $page_name = $title;
         $property = Property::query()->where('title','=',$title)->first();
 
 //        dd($property);
 
-        return view('properties.show',['item'=> $property]);
+        return view('properties.show',['item'=> $property,'page_name'=>$page_name]);
     }
 
 

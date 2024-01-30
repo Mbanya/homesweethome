@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 
-class ContactFormNotification extends Notification
+class InquiryFormNotification extends Notification
 {
     use Queueable;
 
@@ -18,6 +18,7 @@ class ContactFormNotification extends Notification
      */
     public function __construct($validatedData)
     {
+
         $this->data = $validatedData;
     }
 
@@ -37,12 +38,11 @@ class ContactFormNotification extends Notification
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
-            ->line('You have received a message from your contact form')
+            ->line('You have received a message from your inquiry form')
             ->line('Details: ')
             ->line('Name:' . $this->data['name'])
-            ->line('Email: '. $this->data['email'])
             ->line('Phone: '. $this->data['phone'])
-            ->line('Message: '. $this->data['message'])
+            ->line('Page: '. $this->data['page_name'])
             ->line('Thank you for using our application!');
     }
 

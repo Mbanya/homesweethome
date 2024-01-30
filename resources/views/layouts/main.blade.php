@@ -6,7 +6,9 @@
     <title>Home Sweet Home - Apartments & Real Estate Group </title>
     <meta name="description" content="Home Sweet Home - Apartments & Real Estate Group">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    @php
+        $page_name
+     @endphp
 
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

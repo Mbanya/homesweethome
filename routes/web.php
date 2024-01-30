@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\PropertySearch;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,7 +28,8 @@ Route::get('/our-services',['App\Http\Controllers\PageController','services'])->
 Route::get('/faqs',['App\Http\Controllers\PageController','faq'])->name('faqs');
 Route::get('/testimonials',['App\Http\Controllers\PageController','testimonials'])->name('testimonials');
 Route::post('/contact-us',[\App\Http\Controllers\PageController::class,'contactSubmit'])->name('submit-contact');
-
+Route::post('/inquiry',[\App\Http\Controllers\PageController::class,'inquirySubmit'])->name('submit-inquiry');
+Route::get('/property-search', PropertySearch::class)->name('property.search');
 
 /*
  *
