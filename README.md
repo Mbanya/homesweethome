@@ -1,4 +1,4 @@
-[![Laravel Forge Site Deployment Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fforge.laravel.com%2Fsite-badges%2Fa8e24f2b-5626-47ee-8da4-e8d074362c32%3Fdate%3D1%26commit%3D1&style=flat-square)](https://forge.laravel.com/servers/573335/sites/2128276)
+[![Laravel Forge Site Deployment Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fforge.laravel.com%2Fsite-badges%2F5b2acdf5-d2f5-4e27-bd7b-eeadcfbf23c6&style=plastic)](https://forge.laravel.com/servers/573335/sites/2191600)
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
