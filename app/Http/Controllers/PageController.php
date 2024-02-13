@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blog;
 use App\Models\Contact;
+use App\Models\Faq;
 use App\Models\Inquiry;
 use App\Models\Property;
 use App\Models\Testimonial;
@@ -62,7 +63,8 @@ class PageController extends Controller
     public function faq()
     {
         $page_name = 'FAQ Page';
-        return view('pages.faq',['page_name'=>$page_name]);
+        $faqs = Faq::query()->where('status',1)->get();
+        return view('pages.faq',['page_name'=>$page_name,'faqs'=>$faqs]);
     }
 
     public function testimonials()

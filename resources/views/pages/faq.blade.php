@@ -29,7 +29,7 @@
                             <h2 class="title">FAQ</h2>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="{{route('index')}}">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Faq</li>
                                 </ol>
                             </nav>
@@ -55,58 +55,21 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="faq-item-wrap">
-                                <div class="faq-item">
-                                    <h2 class="title">High Quality Rooms</h2>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi</p>
-                                </div>
-                                <div class="faq-item">
-                                    <h2 class="title">Best Amenities at The Best Price</h2>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi</p>
-                                </div>
-                                <div class="faq-item">
-                                    <h2 class="title">Campfire & Nature Walks</h2>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi</p>
-                                </div>
-                                <div class="faq-item">
-                                    <h2 class="title">Pickup And Drop Facility</h2>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi</p>
-                                </div>
+                                @foreach($faqs as $item)
+                                    <div class="faq-item">
+                                        <h2 class="title">{{$item->title}}</h2>
+                                        <p>
+                                            {{$item->body}}
+                                        </p>
+                                    </div>
+                                @endforeach
+
+
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="faq-wrap">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="faq-title mb-50">
-                                <div class="section-title">
-                                    <span class="sub-title">Get answer</span>
-                                    <h2 class="title">Other <br> questions</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="faq-item-wrap">
-                                <div class="faq-item">
-                                    <h2 class="title">Turiest Guide Support</h2>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi</p>
-                                </div>
-                                <div class="faq-item">
-                                    <h2 class="title">Hight Class Security</h2>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi</p>
-                                </div>
-                                <div class="faq-item">
-                                    <h2 class="title">Quick Access to Tourist Attractions</h2>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi</p>
-                                </div>
-                                <div class="faq-item">
-                                    <h2 class="title">Independent Cottages</h2>
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </section>
         <!-- faq-area-end -->

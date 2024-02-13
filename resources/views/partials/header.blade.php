@@ -40,7 +40,7 @@
                                             <li class="menu {{request()->routeIs('blogs.index') ? 'active' : ''}}"><a href="{{route('blogs.index')}}">Blog</a>
 
                                             </li>
-                                            <li class="menu {{request()->routeIs('contact-us') ? 'active' : ''}}"><a href="{{route('contact-us')}}l">contacts</a></li>
+                                            <li class="menu {{request()->routeIs('contact-us') ? 'active' : ''}}"><a href="{{route('contact-us')}}l">Contacts</a></li>
                                         </ul>
                                     </div>
                                 </div>
