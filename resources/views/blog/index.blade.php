@@ -56,7 +56,7 @@
                                         <h2 class="title"><a href="{{route('blogs.show',$blog->title)}}"></a>{{$blog->title}}</h2>
                                         <div class="blog-meta">
                                             <ul class="list-wrap">
-                                                <li>{{$blog->created_at->format('Y M D')}}</li>
+                                                <li>{{$blog->created_at->format('M, D y')}}</li>
                                                 <li><a href="{{route('blogs.index')}}">{{$blog->user->name}}</a></li>
                                             </ul>
                                         </div>
