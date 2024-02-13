@@ -48,6 +48,8 @@ class BlogResource extends Resource
                 Forms\Components\TextInput::make('meta-tag')
                     ->required()
                     ->maxLength(255),
+                Forms\Components\Toggle::make('status')
+                    ->required(),
                 Forms\Components\Select::make('category_id')
                     ->relationship('category', 'name')
                     ->required(),
