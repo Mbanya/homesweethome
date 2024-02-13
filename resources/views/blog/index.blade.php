@@ -49,7 +49,8 @@
                             @forelse($blogs as $blog)
                                 <div class="blog-item blog-item-two">
                                     <div class="blog-thumb">
-                                        <a href="{{route('blogs.show',$blog->id)}}"><img src="main/img/blog/bl_blog_img01.jpg" alt=""></a>
+                                        <a href="{{route('blogs.show',$blog->id)}}">
+                                            <img src="{{asset(Storage::url($blog->image))}}" alt=""></a>
                                     </div>
                                     <div class="blog-content">
                                         <h2 class="title"><a href="{{route('blogs.show',$blog->id)}}"></a>{{$blog->title}}</h2>
@@ -85,14 +86,14 @@
                     </div>
                     <div class="col-lg-4 col-md-8">
                         <aside class="blog-sidebar">
-                            <div class="blog-widget">
-                                <div class="sidebar-search">
-                                    <form action="#">
-                                        <input type="text" placeholder="Search your article here...">
-                                        <button type="submit"><i class="fas fa-search"></i></button>
-                                    </form>
-                                </div>
-                            </div>
+{{--                            <div class="blog-widget">--}}
+{{--                                <div class="sidebar-search">--}}
+{{--                                    <form action="#">--}}
+{{--                                        <input type="text" placeholder="Search your article here...">--}}
+{{--                                        <button type="submit"><i class="fas fa-search"></i></button>--}}
+{{--                                    </form>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                             <div class="blog-widget">
                                 <h2 class="bw-title">Categories</h2>
                                 <div class="bw-cat-list">
