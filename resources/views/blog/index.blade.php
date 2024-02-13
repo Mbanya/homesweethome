@@ -49,7 +49,7 @@
                             @forelse($blogs as $blog)
                                 <div class="blog-item blog-item-two">
                                     <div class="blog-thumb">
-                                        <a href="{{route('blogs.show',$blog->id)}}">
+                                        <a href="{{route('blogs.show',$blog->title)}}">
                                             <img src="{{asset(Storage::url($blog->image))}}" alt=""></a>
                                     </div>
                                     <div class="blog-content">
