@@ -88,62 +88,62 @@
         <!-- blog-details-area-end -->
 
         <!-- blog-area -->
-        <section class="blog-area-two blog-pb-80">
-            <div class="container">
-                <div class="blog-item-wrap">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="blog-item">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img07.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h2 class="title"><a href="blog-details.html">Skills That You Can Learn In The Real Estate Market </a></h2>
-                                    <div class="blog-meta">
-                                        <ul class="list-wrap">
-                                            <li>june 26, 2022</li>
-                                            <li><a href="blog.html">Nicole Willis</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="blog-item">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img08.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h2 class="title"><a href="blog-details.html">7 Home Trends That Will Shape Your House In</a></h2>
-                                    <div class="blog-meta">
-                                        <ul class="list-wrap">
-                                            <li>June 9, 2022</li>
-                                            <li><a href="blog.html">Nicole Willis</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="blog-item">
-                                <div class="blog-thumb">
-                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img09.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-content">
-                                    <h2 class="title"><a href="blog-details.html">Advertising Relationships Vs Business Decisions</a></h2>
-                                    <div class="blog-meta">
-                                        <ul class="list-wrap">
-                                            <li>March 15, 2022</li>
-                                            <li><a href="blog.html">Nicole Willis</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+{{--        <section class="blog-area-two blog-pb-80">--}}
+{{--            <div class="container">--}}
+{{--                <div class="blog-item-wrap">--}}
+{{--                    <div class="row justify-content-center">--}}
+{{--                        <div class="col-lg-4 col-md-6">--}}
+{{--                            <div class="blog-item">--}}
+{{--                                <div class="blog-thumb">--}}
+{{--                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img07.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="blog-content">--}}
+{{--                                    <h2 class="title"><a href="blog-details.html">Skills That You Can Learn In The Real Estate Market </a></h2>--}}
+{{--                                    <div class="blog-meta">--}}
+{{--                                        <ul class="list-wrap">--}}
+{{--                                            <li>june 26, 2022</li>--}}
+{{--                                            <li><a href="blog.html">Nicole Willis</a></li>--}}
+{{--                                        </ul>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-lg-4 col-md-6">--}}
+{{--                            <div class="blog-item">--}}
+{{--                                <div class="blog-thumb">--}}
+{{--                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img08.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="blog-content">--}}
+{{--                                    <h2 class="title"><a href="blog-details.html">7 Home Trends That Will Shape Your House In</a></h2>--}}
+{{--                                    <div class="blog-meta">--}}
+{{--                                        <ul class="list-wrap">--}}
+{{--                                            <li>June 9, 2022</li>--}}
+{{--                                            <li><a href="blog.html">Nicole Willis</a></li>--}}
+{{--                                        </ul>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-lg-4 col-md-6">--}}
+{{--                            <div class="blog-item">--}}
+{{--                                <div class="blog-thumb">--}}
+{{--                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img09.jpg" alt=""></a>--}}
+{{--                                </div>--}}
+{{--                                <div class="blog-content">--}}
+{{--                                    <h2 class="title"><a href="blog-details.html">Advertising Relationships Vs Business Decisions</a></h2>--}}
+{{--                                    <div class="blog-meta">--}}
+{{--                                        <ul class="list-wrap">--}}
+{{--                                            <li>March 15, 2022</li>--}}
+{{--                                            <li><a href="blog.html">Nicole Willis</a></li>--}}
+{{--                                        </ul>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </section>--}}
         <!-- blog-area-end -->
 
     </main>
