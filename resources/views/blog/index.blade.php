@@ -53,10 +53,10 @@
                                             <img src="{{asset(Storage::url($blog->image))}}" alt=""></a>
                                     </div>
                                     <div class="blog-content">
-                                        <h2 class="title"><a href="{{route('blogs.show',$blog->id)}}"></a>{{$blog->title}}</h2>
+                                        <h2 class="title"><a href="{{route('blogs.show',$blog->title)}}"></a>{{$blog->title}}</h2>
                                         <div class="blog-meta">
                                             <ul class="list-wrap">
-                                                <li>May 19, 2022</li>
+                                                <li>{{$blog->created_at->format('Y M D')}}</li>
                                                 <li><a href="{{route('blogs.index')}}">{{$blog->user->name}}</a></li>
                                             </ul>
                                         </div>
