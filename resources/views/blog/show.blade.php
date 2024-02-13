@@ -60,7 +60,7 @@
                                     a seamless experience from property listing to closing.
                                     Count on us to navigate the intricacies to enable you to make the right decisions. Welcome to a place where real estate meets heart; Home Sweet Home
                                 </p>
-                                <span>{{$blog->user->name}} <br> Admin</span>
+                                <span>{{$blog->user->name}} <br>Writer</span>
                             </div>
                         </div>
 {{--                        <div class="blog-next-prev">--}}
