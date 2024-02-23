@@ -20,7 +20,7 @@ class PageController extends Controller
         $page_name = 'Home Page';
         $featured_projects = Property::query()->where('featured','=','1')->paginate(4);
         $testimonials = Testimonial::query()->where('status',1)->get();
-        $blogs = Blog::query()->where('status',1)->get();
+        $blogs = Blog::query()->where('status',1)->paginate(4);
         return view('index',
             [
                 'featured_projects' => $featured_projects,

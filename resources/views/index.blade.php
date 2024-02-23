@@ -237,51 +237,42 @@
         <!-- project-area-end -->
 
         <!-- testimonial-area -->
-        <section class="testimonial-area section-py-140">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8 col-lg-9">
-                        <div class="section-title text-center mb-60">
-                            <span class="sub-title">Testimonials</span>
-                            <h2 class="title">Trusted by thousands of our happy customers</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-8">
+{{--        <section class="testimonial-area section-py-140">--}}
+{{--            <div class="container">--}}
+{{--                <div class="row justify-content-center">--}}
+{{--                    <div class="col-xl-8 col-lg-9">--}}
+{{--                        <div class="section-title text-center mb-60">--}}
+{{--                            <span class="sub-title">Testimonials</span>--}}
+{{--                            <h2 class="title">Trusted by thousands of our happy customers</h2>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="row justify-content-center">--}}
+{{--                    <div class="col-xl-8">--}}
 
-                        @forelse($testimonials as $item)
-                            <div class="testimonial-item">
-                                <div class="testimonial-thumb">
-                                    <img src="main/img/images/testimonial_avatar01.png" alt="">
-                                    <div class="icon"><i class="fas fa-quote-right"></i></div>
-                                </div>
-                                <div class="testimonial-content wow fadeInRight" data-wow-delay=".2s">
-                                    <p>“Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt”</p>
-                                    <span>Jeffrey Kreshek <br> New York</span>
-                                </div>
-                            </div>
+{{--                        @forelse($testimonials as $item)--}}
 {{--                            <div class="testimonial-item">--}}
 {{--                                <div class="testimonial-thumb">--}}
-{{--                                    <img src="main/img/images/testimonial_avatar02.png" alt="">--}}
+{{--                                    <img src="main/img/images/testimonial_avatar01.png" alt="">--}}
 {{--                                    <div class="icon"><i class="fas fa-quote-right"></i></div>--}}
 {{--                                </div>--}}
-{{--                                <div class="testimonial-content wow fadeInLeft" data-wow-delay=".4s">--}}
+{{--                                <div class="testimonial-content wow fadeInRight" data-wow-delay=".2s">--}}
 {{--                                    <p>“Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt”</p>--}}
-{{--                                    <span>Mike Stevenson <br> Florida</span>--}}
+{{--                                    <span>{{$item->name}} <br> {{$item->location}}</span>--}}
 {{--                                </div>--}}
 {{--                            </div>--}}
-                        @empty
-                            <div class="section-title text-center mb-60">
-                                <span class="sub-title">No Testimonials Available</span>
-                            </div>
-                        @endforelse
+
+{{--                        @empty--}}
+{{--                            <div class="section-title text-center mb-60">--}}
+{{--                                <span class="sub-title">No Testimonials Available</span>--}}
+{{--                            </div>--}}
+{{--                        @endforelse--}}
 
 
-                    </div>
-                </div>
-            </div>
-        </section>
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </section>--}}
         <!-- testimonial-area-end -->
 
         <!-- blog-area -->
@@ -309,14 +300,15 @@
                                     <div class="col-md-6">
                                         <div class="blog-item">
                                             <div class="blog-thumb">
-                                                <a href=""><img src="main/img/blog/blog_img01.jpg" alt=""></a>
+                                                <a href="{{route('blogs.show',$blog->title)}}"><img src="{{asset(Storage::url($blog->image))}}" alt=""></a>
                                             </div>
                                             <div class="blog-content">
-                                                <h2 class="title"><a href="l">Apartments designed by the leading interior experts</a></h2>
+                                                <h2 class="title"><a href="{{route('blogs.show',$item->title)}}">
+                                                        {{$blog->title}}</a></h2>
                                                 <div class="blog-meta">
                                                     <ul class="list-wrap">
-                                                        <li>May 19, 2022</li>
-                                                        <li><a href="#">Admon</a></li>
+                                                        <li>{{$blog->created_at->format('M, D y')}}</li>
+                                                        <li><a href="{{route('blogs.index')}}">{{$blog->user->name}}</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
