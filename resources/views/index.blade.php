@@ -300,7 +300,7 @@
                                     <div class="col-md-6">
                                         <div class="blog-item">
                                             <div class="blog-thumb">
-                                                <a href="{{route('blogs.show',$item->title)}}"><img src="{{asset(Storage::url($blog->image))}}" alt=""></a>
+                                                <a href="{{route('blogs.show',$item->title)}}"><img src="{{asset(Storage::url($item->image))}}" alt=""></a>
                                             </div>
                                             <div class="blog-content">
                                                 <h2 class="title"><a href="{{route('blogs.show',$item->title)}}">
