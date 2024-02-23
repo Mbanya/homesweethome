@@ -300,15 +300,15 @@
                                     <div class="col-md-6">
                                         <div class="blog-item">
                                             <div class="blog-thumb">
-                                                <a href="{{route('blogs.show',$blog->title)}}"><img src="{{asset(Storage::url($blog->image))}}" alt=""></a>
+                                                <a href="{{route('blogs.show',$item->title)}}"><img src="{{asset(Storage::url($blog->image))}}" alt=""></a>
                                             </div>
                                             <div class="blog-content">
                                                 <h2 class="title"><a href="{{route('blogs.show',$item->title)}}">
-                                                        {{$blog->title}}</a></h2>
+                                                        {{$item->title}}</a></h2>
                                                 <div class="blog-meta">
                                                     <ul class="list-wrap">
-                                                        <li>{{$blog->created_at->format('M, D y')}}</li>
-                                                        <li><a href="{{route('blogs.index')}}">{{$blog->user->name}}</a></li>
+                                                        <li>{{$item->created_at->format('M, D y')}}</li>
+                                                        <li><a href="{{route('blogs.index')}}">{{$item->user->name}}</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
