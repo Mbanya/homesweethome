@@ -16,7 +16,7 @@ class PropertyController extends Controller
     public function index()
     {
         $page_name = 'Properties Page';
-        $properties = Property::query()->where('status',1)->paginate(8);
+        $properties = Property::query()->where('status',1)->paginate(4);
         $housetypes = HouseType::query()->get();
         $saletypes = SaleType::query()->get();
 

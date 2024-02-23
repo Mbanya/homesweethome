@@ -15,6 +15,8 @@ class PropertySearch extends Component
 {
     use WithPagination;
 
+    protected $paginationTheme = 'simple-tailwind';
+
     /**
      * @var mixed|null
      */
@@ -56,7 +58,7 @@ class PropertySearch extends Component
             ->when($this->city, function ($query) {
                 $query->where('city_id', $this->city);
             })
-            ->paginate(8);
+            ->paginate(4);
 
         return view('livewire.property-search',[
             'properties'=>$properties,

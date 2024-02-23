@@ -48,7 +48,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="contact-info-item">
                             <span class="sub-title">Main office</span>
-                            <h2 class="title">Off Dennis Pritt Rd, Opposite Retreat Villas,
+                            <h2 class="title">Riara Corporate Suites, along Riara road,
                                 Nairobi, Kenya</h2>
                             <ul class="list-wrap">
                                 <li> <a href="mailto:homesweethome@gmail.co.ke">homesweethome@gmail.co.ke</a></li>
@@ -77,9 +77,7 @@
         <div class="map-area">
             <div class="container">
                 <div id="contact-map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.812578834206!2d36.7962845769904!3d-1.2865106356305729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10b725473f7d%3A0xb5fee7b9e24b9643!2sDennis%20Pritt%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1702883276925!5m2!1sen!2ske"
-                        allowfullscreen loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7949329779703!2d36.76017768750197!3d-1.2977480322468773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a6b79e68503%3A0xcd385d82d55f6727!2sRiara%20Corporate%20Suites%2C%20Riara%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1708657577694!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
