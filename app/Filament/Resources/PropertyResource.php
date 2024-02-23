@@ -64,7 +64,7 @@ class PropertyResource extends Resource
                     ->label('Sale Type')
                     ->required(),
                 Forms\Components\Select::make('city_id')
-                    ->options(City::query()->whereIn('country_id',[113,229,70,183,161,204,218])
+                    ->options(City::query()->whereIn('country_id',[113,161,204,231,233])
                         ->pluck('name','id')->toArray())
                     ->searchable()
                     ->loadingMessage('Loading cities...')
