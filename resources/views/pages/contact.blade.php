@@ -48,7 +48,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="contact-info-item">
                             <span class="sub-title">Main office</span>
-                            <h2 class="title">Riara Corporate Suites, along Riara road,
+                            <h2 class="title">Riara Corporate Suites, along Riara road, 1st floor, 106
                                 Nairobi, Kenya</h2>
                             <ul class="list-wrap">
                                 <li> <a href="mailto:homesweethome@gmail.co.ke">homesweethome@gmail.co.ke</a></li>

@@ -14,7 +14,7 @@
                         <div class="footer-widget">
                             <h2 class="fw-title">Contact</h2>
                             <div class="footer-contact">
-                                <p>Riara Corporate Suites, along Riara road <br> Nairobi, Kenya</p>
+                                <p>Riara Corporate Suites, along Riara road, 1st floor, 106 <br> Nairobi, Kenya</p>
                                 <ul class="list-wrap">
                                     <li><a href="mailto:homesweethome@mail.com">homesweethome@gmail.com</a></li>
                                     <li><a href="tel:254743771777">+254 743 771777</a></li>
