@@ -37,6 +37,7 @@ class ContactFormNotification extends Notification
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
+            ->greeting('Dear Home Sweet Home,')
             ->line('You have received a message from your contact form')
             ->line('Details: ')
             ->line('Name:' . $this->data['name'])

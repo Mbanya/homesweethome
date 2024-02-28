@@ -42,7 +42,7 @@ class InquiryFormNotification extends Notification
             ->line('Details: ')
             ->line('Name:' . $this->data['name'])
             ->line('Phone: '. $this->data['phone'])
-            ->line('Page: '. $this->data['page_name'])
+            ->line('Page: '. $this->data['page'])
             ->line('Thank you for using our application!');
     }
 
