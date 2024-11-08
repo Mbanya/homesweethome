@@ -109,7 +109,7 @@
 {{--                                <source src="{{asset('main/video/hsh-hero-image.mp4')}}" type="video/mp4">--}}
 {{--                                Your browser does not support the video tag.--}}
 {{--                            </video>--}}
-                            <a href="{{asset('main/video/video-hsh-2.mp4')}}" class="popup-video play-btn"><i class="fab fa-youtube"></i></a>
+                            <a href="{{asset('main/video/video-hsh-3.mp4')}}" class="popup-video play-btn"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
