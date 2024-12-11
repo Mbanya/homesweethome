@@ -24,6 +24,10 @@ class PropertyResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+    public static function getRecordRouteKeyName(): string
+    {
+        return 'id';
+    }
     public static function form(Form $form): Form
     {
         return $form
@@ -116,7 +120,7 @@ class PropertyResource extends Resource
                     ->searchable(),
                 Tables\Columns\TextColumn::make('price')
                     ->searchable(),
-                Tables\Columns\TextColumn::make('house_type_id')
+                Tables\Columns\TextColumn::make('house_type.name')
                     ->numeric()
                     ->sortable(),
                 Tables\Columns\TextColumn::make('sale_type.name')
@@ -176,6 +180,7 @@ class PropertyResource extends Resource
             //
         ];
     }
+
 
     public static function getPages(): array
     {
