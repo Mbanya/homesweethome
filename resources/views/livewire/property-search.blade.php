@@ -2,7 +2,7 @@
     <section class="inner-project-area project-style-two section-pb-140">
         <div class="container custom-container">
             <div class="project-top-meta mb-50">
-                <form wire:submit.preven="render"t>
+                <form wire:submit.preven="render">
                     <div class="row">
                         <div class="col-xl-3">
                             <div class="form-grp">
@@ -57,10 +57,10 @@
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="project-item">
                                 <div class="project-thumb">
-                                    <a href="{{route('properties.show',$item->title)}}"><img src="{{asset(Storage::url($item->banner_image))}}" alt=""></a>
+                                    <a href="{{route('properties.show',$item->slug)}}"><img src="{{asset(Storage::url($item->banner_image))}}" alt=""></a>
                                 </div>
                                 <div class="project-content">
-                                    <h3 class="title"><a href="{{route('properties.show',$item->title)}}">{{$item->title}}</a></h3>
+                                    <h3 class="title"><a href="{{route('properties.show',$item->slug)}}">{{$item->title}}</a></h3>
                                     <span>{{$item->city->name}} {{$item->address_1}}</span>
                                 </div>
                             </div>

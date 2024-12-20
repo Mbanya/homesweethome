@@ -199,12 +199,12 @@
                         <div class="col-lg-6 col-md-6">
                             <div class="project-item">
                                 <div class="project-thumb">
-                                    <a href="{{route('properties.show',$item->title)}}">
+                                    <a href="{{route('properties.show',$item->slug)}}">
                                         <img src="{{asset(Storage::url($item->banner_image))}}" alt="{{$item->title}}"></a>
                                 </div>
                                 <div class="project-content">
                                     <h3 class="title">
-                                        <a href="{{route('properties.show',$item->title)}}">{{$item->title}}</a>
+                                        <a href="{{route('properties.show',$item->slug)}}">{{$item->title}}</a>
                                     </h3>
                                     <span>{{$item->city->name}}</span>
                                 </div>

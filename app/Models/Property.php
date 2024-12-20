@@ -5,6 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Str;
 
 class Property extends Model
 {
@@ -17,8 +18,26 @@ class Property extends Model
 
     public function getRouteKeyName(): string
     {
-        return 'title';
+        return 'slug';
     }
+
+    protected static function boot(): void
+    {
+        parent::boot();
+
+        static::creating(function ($property) {
+            $slug = Str::slug($property->title);
+            $count = 1;
+
+            while (static::where('slug', $slug)->exists()) {
+                $slug = Str::slug($property->title) . '-' . $count;
+                $count++;
+            }
+
+            $property->slug = $slug;
+        });
+    }
+
 
     public function city(): BelongsTo
     {
@@ -34,5 +53,13 @@ class Property extends Model
     public function house_type(): BelongsTo
     {
         return $this->belongsTo(HouseType::class);
+    }
+
+    /**
+     * @return string
+     */
+    public function getSlugAttribute(): string
+    {
+        return Str::slug($this->title);
     }
 }

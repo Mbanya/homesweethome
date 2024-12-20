@@ -24,9 +24,10 @@ class PropertyResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
+    // This ensures Filament continues to use ID for its routing
     public static function getRecordRouteKeyName(): string
     {
-        return 'id';
+        return 'slug';
     }
     public static function form(Form $form): Form
     {
@@ -178,6 +179,21 @@ class PropertyResource extends Resource
     {
         return [
             //
+        ];
+    }
+
+    /**
+     * Transform the resource into an array.
+     *
+     * @return array<string, mixed>
+     */
+    public function toArray(Request $request): array
+    {
+        return [
+            'id' => $this->id,
+            'title' => $this->title,
+            'url' => route('properties.show', $this->slug), // For frontend
+
         ];
     }
 
