@@ -192,7 +192,7 @@ class PropertyResource extends Resource
         return [
             'id' => $this->id,
             'title' => $this->title,
-            'url' => route('properties.show', $this->slug), // For frontend
+//            'url' => route('properties.show', $this->slug), // For frontend
 
         ];
     }

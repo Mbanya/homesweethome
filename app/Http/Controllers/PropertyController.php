@@ -38,18 +38,14 @@ class PropertyController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $slug)
+    public function show(Property $property)
     {
-        // Convert slug back to possible title variations
-        $title = str_replace('-', ' ', $slug);
-        $property = Property::where('title', 'LIKE', $title)->firstOrFail();
+        $page_name = $property->title;
 
-        $page_name = $title;
-//        $property = Property::query()->where('title','=',$title)->first();
-
-//        dd($property);
-
-        return view('properties.show',['item'=> $property,'page_name'=>$page_name]);
+        return view('properties.show', [
+            'item' => $property,
+            'page_name' => $page_name
+        ]);
     }
 
 
