@@ -61,14 +61,7 @@
                                 <li><a href="https://x.com/home_sweet_home_apartmentshome"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="https://www.tiktok.com/@home_sweet_homeapartments"><i class="fab fa-tiktok"></i></a></li>
                                 <li><a href="https://www.youtube.com/@HomesweethomeApartment"><i class="fab fa-youtube"></i></a></li>
-                                <li>
-                                    <a href="https://www.threads.net/@home_sweet_home_apartments" target="_blank" rel="noopener">
-                                        <!-- Threads SVG icon -->
-                                        <svg width="18" height="18" viewBox="0 0 256 256" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
-                                            <path d="M128 26C74.2 26 32 68.9 32 128c0 59 42.2 102 96 102s96-43 96-102c0-59.1-42.2-102-96-102zm41.3 145.4c-7.5 9.7-19.5 16.1-31.1 16.1-22.2 0-35.1-15.7-38.8-37.4 14.5 8.1 27.9 11.2 51.9-8.6 13-11.1 16.4-21.4 16.1-29.6 0-11.7-10.2-24.2-31.3-24.2-26.5 0-43 18.7-43 47.5 0 29.9 20.6 52.2 50.1 52.2 15.4 0 31.7-8.3 40.7-19.9l-15.3-13.3zm-31.1-54.8c11.9 0 17.5 6.4 17.5 12.5.1 2.9-1.6 10.8-10.8 18.6-19.6 16.7-27.3 13.2-38.7 7.8.7-22 14.7-38.9 32-38.9z"/>
-                                        </svg>
-                                    </a>
-                                </li>
+                                <li><a href="https://www.threads.net/@home_sweet_home_apartments" target="_blank" rel="noopener"><i class="fab fa-threads"></i></a></li>
                             </ul>
                         </div>
                     </div>
