@@ -42,10 +42,13 @@
                                 {!! $blog->body !!}
                                 <div class="blog-details-social">
                                     <ul class="list-wrap">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://www.facebook.com/Homesweethome%20apartments"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.instagram.com/home_sweet_home_apartments"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://x.com/home_sweet_home_apartmentshome"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.tiktok.com/@home_sweet_homeapartments"><i class="fab fa-tiktok"></i></a></li>
+                                        <li><a href="https://www.youtube.com/@HomesweethomeApartment"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="https://www.threads.net/@home_sweet_home_apartments" target="_blank" rel="noopener"><i
+                                                    class="fab fa-threads"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

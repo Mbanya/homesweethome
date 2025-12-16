@@ -7,7 +7,7 @@
                         <div class="col-xl-3">
                             <div class="form-grp">
                                 <input type="text" wire:model.live.debounce.500ms="title"  placeholder="Search by project name...">
-                                <button type="submit"><i class="fas fa-search"></i></button>
+                                <button type="submit" ><i class="fas fa-search" ></i></button>
                             </div>
                         </div>
                         <div class="col-xl-6">
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                         <div class="col-xl-3">
-                            <button type="button" class="btn" wire:click="resetFilters">Reset <i class="fas fa-refresh"></i></button>
+                            <button type="button" class="btn" wire:click="resetFilters">Reset <i class="fas fa-refresh" style="margin-left: 8px;"></i></button>
                         </div>
                     </div>
                 </form>
@@ -77,8 +77,9 @@
 
                 </div>
             </div>
-            {{$properties->links()}}
-
+            <div class="mt-50">
+                {{ $properties->links('vendor.pagination.bootstrap-5') }}
+            </div>
 
         </div>
     </section>

@@ -19,7 +19,6 @@
     <!-- header-area-end -->
     <!-- main-area -->
     <main>
-
         <!-- breadcrumb-area -->
         <section class="breadcrumb-area">
             <div class="container">
@@ -72,7 +71,7 @@
 
 
                         </div>
-                        {{$blogs->links()}}
+                        {{$blogs->links('vendor.pagination.bootstrap-5')}}
 {{--                        <div class="pagination-wrap">--}}
 {{--                            <nav aria-label="Page navigation example">--}}
 {{--                                <ul class="pagination list-wrap">--}}
@@ -128,10 +127,13 @@
                                 <h2 class="bw-title">Follow Us</h2>
                                 <div class="bw-social">
                                     <ul class="list-wrap">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://www.facebook.com/Homesweethome%20apartments"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.instagram.com/home_sweet_home_apartments"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://x.com/home_sweet_home_apartmentshome"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.tiktok.com/@home_sweet_homeapartments"><i class="fab fa-tiktok"></i></a></li>
+                                        <li><a href="https://www.youtube.com/@HomesweethomeApartment"><i class="fab fa-youtube"></i></a></li>
+                                        <li><a href="https://www.threads.net/@home_sweet_home_apartments" target="_blank" rel="noopener"><i
+                                                    class="fab fa-threads"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
