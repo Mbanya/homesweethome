@@ -5,6 +5,7 @@ namespace App\Filament\Resources;
 use App\Filament\Resources\BlogResource\Pages;
 use App\Filament\Resources\BlogResource\RelationManagers;
 use App\Models\Blog;
+use App\Rules\SafeFile;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -35,6 +36,9 @@ class BlogResource extends Resource
                 Forms\Components\FileUpload::make('image')
                     ->image()
                     ->columnSpanFull()
+                    ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/webp', 'image/gif'])
+                    ->maxSize(2048)
+                    ->rules([new SafeFile(['image/jpeg', 'image/png', 'image/webp', 'image/gif'])])
                     ->imageEditor()
                     ->imageEditorViewportWidth('1920')
                     ->imageEditorViewportHeight('1080')

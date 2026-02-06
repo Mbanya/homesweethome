@@ -6,6 +6,7 @@ use App\Filament\Resources\PropertyPlanResource\Pages;
 use App\Filament\Resources\PropertyPlanResource\RelationManagers;
 use App\Models\Property;
 use App\Models\PropertyPlan;
+use App\Rules\SafeFile;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -37,6 +38,9 @@ class PropertyPlanResource extends Resource
                     ->required(),
                 Forms\Components\FileUpload::make('image')
                     ->image()
+                    ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/webp', 'image/gif'])
+                    ->maxSize(2048)
+                    ->rules([new SafeFile(['image/jpeg', 'image/png', 'image/webp', 'image/gif'])])
                     ->required(),
             ]);
     }

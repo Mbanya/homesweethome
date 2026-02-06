@@ -9,6 +9,7 @@ use App\Models\City;
 use App\Models\HouseType;
 use App\Models\Property;
 use App\Models\SaleType;
+use App\Rules\SafeFile;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -39,6 +40,9 @@ class PropertyResource extends Resource
                 Forms\Components\FileUpload::make('banner_image')
                     ->required()
                     ->image()
+                    ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/webp', 'image/gif'])
+                    ->maxSize(2048)
+                    ->rules([new SafeFile(['image/jpeg', 'image/png', 'image/webp', 'image/gif'])])
                     ->imageResizeMode('cover')
                     ->imageResizeTargetWidth('633')
                     ->imageResizeTargetHeight('520')
@@ -100,7 +104,10 @@ class PropertyResource extends Resource
                     ->multiple()
                     ->image()
                     ->columnSpanFull()
-//                    ->acceptedFileTypes(['image\*'])
+                    ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/webp', 'image/gif'])
+                    ->maxSize(2048)
+                    ->maxFiles(10)
+                    ->rules([new SafeFile(['image/jpeg', 'image/png', 'image/webp', 'image/gif'])])
                     ->reorderable()
                     ->imageEditor()
                     ->imageEditorViewportWidth('1920')
